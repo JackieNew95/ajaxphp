@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajax</title>
+</head>
+<body>
+<!--    exercise：异步的JavaScript和xml
+    1、对象
+    2、打开请求
+    3、发送请求
+    4、异步监听
+    5、操作
+
+    wamp：
+    window、apaqi、mysql、php
+
+    lamp:
+    linix、apaqi、mysql、php
+
+    ajax在服务器环境下才可以打开，需要放到www文件夹下，
+    直接右键打开需要自行模拟服务器环境，将包括www目录的地址都删除并加localhost即可
+
+-->
+</body>
+<script>
+    let xml=new XMLHttpRequest();//创建xml对象
+    xml.open('get','test.txt',true);//打开方式、请求路径、是否异步
+    xml.send();//发送请求
+    xml.onreadystatechange=function () {//监听事件
+        if(xml.readyState == 4){//readyState服务器状态，4能够响应
+            if(xml.status == 200){//数据成功找到并拿回来；200~300都是能找到，经常是304，404是没找到
+                console.log(xml.responseText);//拿回的数据
+                document.body.innerHTML+=`<div>${xml.responseText}</div>`;//例子，数据的处理
+            }
+        }
+    }
+</script>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajax</title>
+</head>
+<body>
+    <ul>
+        <!--<li></li>
+        <li></li>
+        <li></li>-->
+    </ul>
+<!--
+	格式：<?    php代码   ?>
+	php可以嵌套html，但html不能嵌套php
+	php句尾必须加分号
+	php是面向过程的语言，没有json数组
+	php不用声明，直接 $arr=[]; 即可使用
+	
+	ajax单线程异步机制语言
+	
+	栈：存储同步任务（立即执行，耗时短、不回调函数、）
+	堆：
+	队列：异步任务队列
+
+-->
+</body>
+<script>
+	let ul=document.querySelector('ul');
+    let xml=new XMLHttpRequest();//创建xml对象
+    
+/*    
+//  xml.open('get','text.txt',true);//打开方式(get数据量大，放在地址栏，不安全\set数据量小安全\...)、请求路径、是否异步
+    xml.open('get','data.php?name=news',true);//data.php?name=pe&age=18
+    //打开方式(get数据量大放在地址栏不安全\set数据量小安全\...)、请求路径(路径?name=名字)、是否异步
+    xml.send();//发送请求
+    //get方式
+    */
+   
+   
+    
+    xml.onreadystatechange=function () {
+        if(xml.readyState == 4){
+            if(xml.status == 200){
+            	console.log(xml.responseText)
+            	let data=JSON.parse(xml.responseText);
+                data.forEach(element=>{
+                	ul.innerHTML+=`<li>${element.title}----${element.content}</li>`
+                })
+            }
+        }
+    }
+</script>
+</html>

@@ -1,0 +1,118 @@
+$padding:15px;
+$num:12;
+@mixin center{
+  margin-left: auto;
+  margin-right: auto;
+}
+@mixin padding($padding){
+  padding-left: $padding;
+  padding-right: $padding;
+}
+.container{
+  height: auto;
+  overflow: hidden;
+  @include center;
+  @include padding(15px);
+  box-sizing: border-box;
+}
+.container-fluid{
+  height: auto;
+  overflow: hidden;
+  @include padding(15px);
+  box-sizing: border-box;
+}
+.row{
+  height: auto;
+  overflow: hidden;
+  margin-left: -$padding;
+  margin-right: -$padding;
+  box-sizing: border-box;
+}
+.row:before,.row:after{
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  clear: both;
+}
+[class*="col-"]{
+  float: left;
+  @include padding(15px);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 768px){
+  @for $i from 1 through 12{
+    .col-xs-#{$i}{
+      width: $i/$num * 100%;
+    }
+    .col-xs-push-#{$i}{
+      position: relative;
+      left:$i/$num * 100%;
+    }
+    .col-xs-pull-#{$i}{
+      position: relative;
+      right:$i/$num * 100%;
+    }
+  }
+  .hidden-xs{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px){
+  @for $i from 1 through 12{
+    .col-sm-#{$i}{
+      width: $i/$num * 100%;
+    }
+    .col-sm-push-#{$i}{
+      position: relative;
+      left:$i/$num * 100%;
+    }
+    .col-sm-pull-#{$i}{
+      position: relative;
+      right:$i/$num * 100%;
+    }
+  }
+  .hidden-sm{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+  @for $i from 1 through 12{
+    .col-md-#{$i}{
+      width: $i/$num * 100%;
+    }
+    .col-md-push-#{$i}{
+      position: relative;
+      left:$i/$num * 100%;
+    }
+    .col-md-pull-#{$i}{
+      position: relative;
+      right:$i/$num * 100%;
+    }
+  }
+  .hidden-md{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  @for $i from 1 through 12{
+    .col-lg-#{$i}{
+      width: $i/$num * 100%;
+    }
+    .col-lg-push-#{$i}{
+      position: relative;
+      left:$i/$num * 100%;
+    }
+    .col-lg-pull-#{$i}{
+      position: relative;
+      right:$i/$num * 100%;
+    }
+  }
+  .hidden-lg{
+    display: none;
+  }
+}

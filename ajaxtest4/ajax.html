@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>自己封装ajax</title>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+		let a={url:'data.php',method:"get",data:"name=news",datatype:"text",fn:function(data){console.log(data)}};
+		ajax(a)
+		// exercise("data.php","get","name=web","json",function(data){console.log(data)})
+		
+		function ajax(url,method,data,datatype,fn){
+			let xml=new XMLHttpRequest();
+			if(typeof arguments[0] == 'object' && arguments.length==1){
+				let url1=url["url"];
+				let method1=url["method"];
+				let data1=url["data"];
+				let datatype1=url["datatype"];
+				let fn1=url["fn"];
+				ajax1(url1,method1,data1,datatype1,fn1)
+			}else{
+				ajax1(url,method,data,datatype,fn);
+			}
+			
+			function ajax1(url,method,data,datatype,fn){
+				xml.responseType=datatype;
+				if(method=='get'){
+					xml.open(method,`${url}?${data}`,true);
+					xml.send();
+				}else if(method=='post'){
+					xml.open(method,url,true);
+					xml.setRequestHeader('Content-type','application/x-www-form-urlencoded');
+					xml.send(data);
+				}
+				xml.onreadystatechange=function(){
+					if (xml.readyState==4) {
+						if(xml.status==200){
+							if(datatype=='text'){
+								let datar=JSON.parse(xml.responseText);
+								fn(datar);
+							}else if(datatype=='json'){
+								let datar=xml.response;
+								fn(datar);
+								
+							}
+						}
+					}
+				}
+			}
+			
+			
+		}
+	</script>
+</html>

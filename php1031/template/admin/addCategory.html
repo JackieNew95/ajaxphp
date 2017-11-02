@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="">
+    <title>添加分类</title>
+</head>
+<body>
+    <div class="panel">
+        <form action="addCategory.php" method="post">
+            <div class="formgroup">
+                <lable>父级栏目</lable>
+                <select name="pid" id="">
+                    <option value="0">一级栏目</option>
+                    <?php echo $option;?>
+                </select>
+            </div>
+            <div class="formgroup">
+                <lable>栏目名称</lable>
+                <input type="text" name="cname" placeholder="栏目名称">
+            </div>
+            <div class="formgroup">
+                <input type="submit" value="提交" name="sub">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

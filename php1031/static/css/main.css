@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #FFFFFF; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+body {
+  background: url("../img/bg1.jpg") center/cover no-repeat; }
+
+.header {
+  width: 100%;
+  height: 70px;
+  padding: 0 40px;
+  color: #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header h1 {
+    padding: 0 10px;
+    font-size: 26px; }
+  .header .headBtns {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .header .headBtns > li {
+      display: block;
+      font-size: 14px;
+      float: left;
+      padding: 5px 10px; }
+      .header .headBtns > li > img {
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        box-shadow: 0 0 8px 0  #FFFFFF;
+        background: url("../img/bg.jpg") center/cover no-repeat; }
+
+.leftnav {
+  width: 180px;
+  position: absolute;
+  top: 70px;
+  bottom: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start; }
+  .leftnav > h2 {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
+    padding: 10px;
+    margin-bottom: 5px;
+    background: rgba(255, 255, 255, 0.6);
+    cursor: pointer; }
+  .leftnav > ul {
+    width: 100%;
+    height: auto;
+    display: none;
+    color: #FFFFFF; }
+    .leftnav > ul > li {
+      height: 40px;
+      margin-bottom: 5px;
+      font-size: 16px;
+      border: 1px solid #ffdc8e;
+      cursor: pointer; }
+      .leftnav > ul > li > a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        line-height: 40px;
+        padding-left: 30px;
+        box-sizing: border-box; }
+
+.content {
+  position: absolute;
+  top: 70px;
+  bottom: 0;
+  left: 180px;
+  right: 0;
+  background: rgba(255, 255, 255, 0.75); }
+
+iframe {
+  width: 100%;
+  height: 100%; }
+
+.on {
+  display: block; }
+
+/*# sourceMappingURL=main.css.map */
