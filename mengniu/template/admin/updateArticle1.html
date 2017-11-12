@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/css/updateArticle1.css">
+    <title>修改文章</title>
+</head>
+<body>
+<form action="updateArticle1.php" method="post" enctype="multipart/form-data">
+    <div class="formGroup">
+        <label>本栏目ID
+            <input type="text" name="cid" readonly value="<?php echo $cid;?>">
+        </label>
+        <label>栏目名称
+            <input type="text" readonly value="<?php echo $cname;?>">
+        </label>
+        <label>所属栏目
+            <input type="text" readonly value="<?php echo $pname;?>">
+        </label>
+        <label>本文ID
+            <input type="text" name="did" readonly value="<?php echo $did;?>">
+        </label>
+    </div>
+    <div class="formGroup">
+        <label>页面标题
+            <input type="file" name="dtitle" value="<?php echo $dtitle;?>">
+        </label>
+        <img src="../static/img/index/detailcontent/<?php echo $dtitle;?>" alt="">
+    </div>
+    <div class="formGroup">
+        <label>页面背景
+            <input type="file" name="dbg" value="<?php echo $dbg;?>">
+        </label>
+        <img src="../static/img/index/detailcontent/<?php echo $dbg;?>" alt="">
+    </div>
+    <div class="formGroup">
+        <label>文章标题
+            <input type="text" name="atitle" class="atitle" value="<?php echo $atitle;?>">
+        </label>
+    </div>
+    <div class="formGroup textarea">
+        <label>文章内容</label>
+        <textarea name="acontent" rows="10" value="<?php echo $acontent;?>"><?php echo $acontent;?></textarea>
+    </div>
+    <div class="formGroup">
+        <label>文章配图
+            <input type="file" name="aimg" value="<?php echo $aimg;?>">
+        </label>
+        <img src="../static/img/index/detailcontent/<?php echo $aimg;?>" alt="">
+    </div>
+    <div class="formGroup">
+        <input type="submit" name="sub" class="sub" value="提交">
+    </div>
+</form>
+</body>
+</html>

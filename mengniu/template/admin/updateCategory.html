@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/css/addCategory.css">
+    <title>修改栏目</title>
+</head>
+<body>
+<div class="panel">
+    <form action="updateCategory.php" method="post">
+        <div class="formgroup">
+            <lable>父级栏目</lable>
+            <select name="pid" id="">
+                <option value="0" >一级栏目</option>
+                <?php echo $str;?>
+            </select>
+        </div>
+        <div class="formgroup">
+            <lable>栏目ID</lable>
+            <input type="text" name="cid" value="<?php echo $cid;?>" placeholder="栏目id" readonly>
+        </div>
+        <div class="formgroup">
+            <lable>栏目名称</lable>
+            <input type="text" name="cname" value="<?php echo $cname;?>" placeholder="栏目名称">
+        </div>
+        <div class="formgroup">
+            <label>栏目模板</label>
+            <select name="templet" id="">
+                <?php
+                    for($i=0;$i<count($option1);$i++){
+                        if($option1[$i]['cid']==$cid){
+                ?>
+                <option value="<?php echo $option1[$i]['templet'];?>" selected>
+                    <?php
+                    echo $option1[$i]['templet'];
+                   ?>
+                </option>
+                <?php }else{?>
+                <option value="<?php echo $option1[$i]['templet'];?>">
+                    <?php
+                    echo $option1[$i]['templet'];
+                   ?>
+                </option>
+                <?php
+                    }
+                }
+                ?>
+            </select>
+        </div>
+
+        <div class="formgroup">
+            <label>管理模板</label>
+            <select name="addtemplet" id="" disabled>
+                <?php
+                    for($i=0;$i<count($option1);$i++){
+                        if($option1[$i]['cid']==$cid){
+                ?>
+                <option value="<?php echo $option1[$i]['addtemplet'];?>" selected>
+                    <?php
+                    echo $option1[$i]['addtemplet'];
+                   ?>
+                </option>
+                <?php }else{?>
+                <option value="<?php echo $option1[$i]['addtemplet'];?>">
+                    <?php
+                    echo $option1[$i]['addtemplet'];
+                   ?>
+                </option>
+                <?php
+                    }
+                }
+                ?>
+            </select>
+        </div>
+        <div class="formgroup">
+            <input type="submit" value="提交" name="sub">
+        </div>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/ajaxphp/ktv/Public/css/bootstrap.css">
+    <script src="/ajaxphp/ktv/Public/js/jquery.js"></script>
+    <!--<script src="/ajaxphp/ktv/Public/js/bootstrap.js"></script>-->
+    <title>KTV后台管理系统</title>
+    <style>
+        .tips{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #FF6666;
+            z-index: 1;
+        }
+    </style>
+    <script>
+        $(function () {
+            let tips=$('.tips');
+            $(window).ajaxStart(function () {
+                tips.animate({width:'80%'});
+            });
+            $(window).ajaxComplete(function () {
+                tips.stop().animate({width:'100%'}).queue(function () {
+                    $(this).css('width',0);
+                })
+            });
+            $('.dropdown').on('click',function () {
+                $('.dropdown-menu',this).slideToggle();
+/*                $(this).children('.dropdown-menu').slideToggle();
+                $(this).find('.dropdown-menu').slideToggle();
+                获取dropdown-menu的几种方法
+                */
+            })
+        })
+    </script>
+</head>
+<body>
+<div class="tips"></div>
+<nav class="navbar navbar-default">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">KTV后台管理系统</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="#gamemanager">游戏管理</a>
+                </li>
+                <li>
+                    <a href="#shopmanager">商店管理</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#songsmanager" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">歌曲管理 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/css/addCategory.css">
+    <title>添加分类</title>
+</head>
+<body>
+    <div class="panel">
+        <h2>添加栏目</h2>
+        <form action="addCategory.php" method="post">
+            <div class="formgroup">
+                <label>父级栏目</label>
+                <select name="pid" id="">
+                    <option value="0">一级栏目</option>
+                    <?php echo $option;?>
+                </select>
+            </div>
+            <div class="formgroup">
+                <label>栏目名称</label>
+                <input type="text" name="cname" placeholder="栏目名称">
+            </div>
+            <div class="formgroup">
+                <label>栏目模板</label>
+                <select name="templet" id="">
+                    <?php
+                    $temp=array();
+                    for($i=0;$i<count($option1);$i++){
+                        if(in_array($option1[$i]['templet'],$temp)){
+                            continue;
+                        }else{
+                            array_push($temp,$option1[$i]['templet']);
+                    ?>
+                    <option value="<?php echo $option1[$i]['templet'];?>">
+                        <?php
+                        echo $option1[$i]['templet'];
+                       ?>
+                    </option>
+                    <?php
+                        }
+                    }
+                    ?>
+                </select>
+            </div>
+            <div class="formgroup">
+                <input type="submit" value="提交" class="sub" name="sub">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

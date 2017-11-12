@@ -1,0 +1,58 @@
+/*页脚*/
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    overflow: visible;
+    text-align: center;
+    color: #b5b5b6;
+    background: url("../img/index/footer/u.jpg") center no-repeat;
+    background-size: cover;
+}
+.footer_inner {
+    margin-left: 93px;
+    position: relative;
+}
+.social {
+    padding: 61px 0 32px;
+}
+.footer a {
+    color: #b5b5b6;
+}
+.social_item {
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+}
+.social_item i {
+    display: block;
+    margin: 0 auto 15px;
+    width: 54px;
+    height: 54px;
+    background: url(../img/index/footer/8X.png) 0 0 no-repeat;
+    background-size: 108px;
+}
+.social_weibo {
+    margin-right: 20px;
+}
+.social_weixin i {
+    background-position: -54px 0;
+}
+.footer .copyright {
+    padding: 0 2em 86px;
+    line-height: 1.8;
+}
+.footer .beian {
+    width: 20px;
+    height: 20px;
+    background: url(../img/index/footer/ef.png) 0 0 no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}

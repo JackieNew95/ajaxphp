@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/css/addArticle1.css">
+    <title>添加产品</title>
+</head>
+<body>
+<h2>添加产品</h2>
+<form action="addproductlist.php" method="post" enctype="multipart/form-data">
+    <div class="formGroup">
+        <label>本栏目ID</label>
+        <input type="text" name="cid" readonly value="<?php echo $cid;?>">
+        <label>栏目名称</label>
+        <input type="text" readonly value="<?php echo $cname;?>">
+        <label>所属栏目</label>
+        <input type="text" readonly value="<?php echo $pname;?>">
+    </div>
+    <div class="formGroup">
+        <label>产品配图</label>
+        <input type="file" name="proname" value="">
+    </div>
+    <div class="formGroup">
+        <label>产品链接</label>
+        <input type="text" name="prolink" value="" class="atitle">
+    </div>
+    <div class="formGroup">
+        <input type="submit" name="sub" class="sub" value="提交">
+    </div>
+</form>
+</body>
+</html>

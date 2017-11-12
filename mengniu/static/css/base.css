@@ -1,0 +1,21 @@
+/*
+* @Author: zhangyanan
+* @Date:   2017-08-17 16:22:50
+* @Last Modified by:   zhangyanan
+* @Last Modified time: 2017-08-18 00:28:36
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "微软雅黑", "宋体",sans-serif;
+	text-decoration: none;
+}
+body{
+	background: white;
+}
+img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}

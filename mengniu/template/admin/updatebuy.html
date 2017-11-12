@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/css/addArticle1.css">
+    <title>添加文章1</title>
+</head>
+<body>
+<h2>添加内容</h2>
+<form action="updatebuy.php" method="post" enctype="multipart/form-data">
+    <div class="formGroup">
+        <label>本栏目ID</label>
+        <input type="text" name="cid" readonly value="<?php echo $cid;?>">
+        <label>栏目名称</label>
+        <input type="text" readonly value="<?php echo $cname;?>">
+        <label>所属栏目</label>
+        <input type="text" readonly value="<?php echo $pname;?>">
+    </div>
+    <div class="formGroup">
+        <label>序号</label>
+        <input type="text" readonly name="bid" value="<?php echo $bid;?>" class="atitle">
+    </div>
+    <div class="formGroup">
+        <label>链接</label>
+        <input type="text" name="link" value="<?php echo $link;?>" class="atitle">
+    </div>
+    <div class="formGroup">
+        <input type="submit" class="sub" value="提交">
+    </div>
+</form>
+</body>
+</html>

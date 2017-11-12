@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/css/updateArticle1.css">
+    <title>添加导航页内容</title>
+</head>
+<body>
+<h2>添加内容</h2>
+<form action="updatenavcontent.php" method="post" enctype="multipart/form-data">
+    <div class="formGroup">
+        <label>序号
+            <input type="text" name="navid" readonly value="<?php echo $navid;?>">
+        </label>
+        <label>所属页面ID
+            <input type="text" name="cid" readonly value="<?php echo $cid;?>">
+        </label>
+        <label>所属页面
+            <input type="text" readonly value="<?php echo $cname;?>">
+        </label>
+    </div>
+    <div class="formGroup">
+        <label>栏目标题
+            <input type="file" name="ctitle" value="<?php echo $ctitle;?>">
+        </label>
+        <img src="../static/img/index/nav/<?php echo $cid;?>/<?php echo $ctitle;?>" alt="">
+    </div>
+    <div class="formGroup">
+        <label>栏目介绍
+            <input type="file" name="cslogan" value="<?php echo $cslogan;?>">
+        </label>
+        <img src="../static/img/index/nav/<?php echo $cid;?>/<?php echo $cslogan;?>" alt="">
+    </div>
+    <div class="formGroup">
+        <label>栏目配图
+            <input type="file" name="cimg" value="<?php echo $cimg;?>">
+        </label>
+        <img src="../static/img/index/nav/<?php echo $cid;?>/<?php echo $cimg;?>" alt="">
+    </div>
+    <div class="formGroup">
+        <input type="submit" name="sub" class="sub" value="提交">
+    </div>
+</form>
+</body>
+</html>

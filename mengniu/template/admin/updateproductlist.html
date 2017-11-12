@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/ajaxphp/mengniu/static/css/updateArticle1.css">
+    <title>添加产品</title>
+</head>
+<body>
+<h2>添加产品</h2>
+<form action="updateproductlist.php" method="post" enctype="multipart/form-data">
+    <div class="formGroup">
+        <label>序号
+            <input type="text" name="proid" readonly value="<?php echo $proid;?>">
+        </label>
+    </div>
+    <div class="formGroup">
+        <label>产品配图
+            <input type="file" name="proname" value="<?php echo $data['proname'];?>">
+        </label>
+        <img src="../static/img/index/product/<?php echo $data['proname'];?>" alt="">
+    </div>
+    <div class="formGroup">
+        <label>产品链接
+            <input type="text" name="prolink" value="<?php echo $data['prolink'];?>" class="atitle">
+        </label>
+    </div>
+    <div class="formGroup">
+        <input type="submit" name="sub" class="sub" value="提交">
+    </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #000000; }
+
+body {
+  padding: 10px; }
+
+.panel {
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  min-height: 200px;
+  padding: 10px; }
+  .panel .panelHeader {
+    padding: 10px;
+    font-size: 20px;
+    border-bottom: 1px solid #CCCCCC;
+    border-radius: 4px 4px 0 0; }
+  .panel .panelContent {
+    width: 100%;
+    height: auto; }
+    .panel .panelContent table {
+      width: 90%;
+      height: auto;
+      margin: 15px auto;
+      border-collapse: collapse;
+      text-align: center; }
+      .panel .panelContent table th, .panel .panelContent table td {
+        border: 1px solid #CCCCCC;
+        padding: 6px 12px; }
+        .panel .panelContent table th img, .panel .panelContent table td img {
+          display: block;
+          margin: 0 auto;
+          max-width: 100px;
+          max-height: 70px; }
+        .panel .panelContent table th *, .panel .panelContent table td * {
+          font-size: 10px;
+          max-width: 100px;
+          max-height: 15px;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden; }
+      .panel .panelContent table tr:nth-of-type(2n) {
+        background: #CCFFCC; }
+      .panel .panelContent table tr:nth-of-type(2n-1) {
+        background: #CCCCFF; }
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 4px;
+  line-height: 1.5;
+  font-size: 12px;
+  color: #000000; }
+
+.btnAdd {
+  background: #FF6666;
+  color: #FFFFFF; }
+
+.btnDel {
+  background: #fdffdf; }
+
+/*# sourceMappingURL=showcategory.css.map */

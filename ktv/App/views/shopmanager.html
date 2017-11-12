@@ -1,0 +1,83 @@
+<?php include 'adminheader.html';?>
+<script src="/ajaxphp/ktv/Public/js/shopmanager.js"></script>
+<style>
+    input{
+        border: none;
+        background: none;
+        outline: none;
+        text-align: center;
+    }
+</style>
+<div class="container">
+
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist" id="myTab">
+        <li role="presentation" class="active">
+            <a href="#add" id="add" aria-controls="home" role="tab" data-toggle="tab">添加</a>
+        </li>
+        <li role="presentation">
+            <a href="#list" id="list" aria-controls="profile" role="tab" data-toggle="tab">查看</a>
+        </li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="add-tab">
+            <form action="javascript:;"><!--阻止点击按钮提交，因为要用ajax-->
+                <div class="form-group">
+                    <label for="sname">商品名称</label>
+                    <input type="text" class="form-control" id="sname" name="sname" placeholder="请输入商品名">
+                </div>
+                <div class="form-group">
+                    <label for="description">商品描述</label>
+                    <input type="text" class="form-control" id="description" name="description" placeholder="请输入商品描述">
+                </div>
+                <div class="form-group">
+                    <label for="price">商品价格</label>
+                    <input type="text" class="form-control" id="price" name="price" placeholder="请输入商品价格">
+                </div>
+                <div class="form-group">
+                    <label for="stype">商品类型</label>
+                    <input type="text" class="form-control" id="stype" name="stype" placeholder="请输入商品类型">
+                </div>
+                <div class="form-group">
+                    <label for="size">商品规格</label>
+                    <input type="text" class="form-control" id="size" name="size" placeholder="请输入商品规格">
+                </div>
+                <div class="form-group">
+                    <label for="hot">商品热度</label>
+                    <input type="text" class="form-control" id="hot" name="hot" placeholder="请输入商品热度">
+                </div>
+                <div class="form-group">
+                    <label for="img">商品配图</label>
+                    <input type="file" id="img">
+                    <p class="help-block">请输入商品配图</p>
+                </div>
+                <button type="submit" class="btn btn-primary">添加</button>
+            </form>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="list-tab">
+            <table class="table table-bordered" style="text-align: center">
+                <thead>
+                <tr>
+                    <th style="text-align: center">商品ID</th>
+                    <th style="text-align: center">商品名称</th>
+                    <th style="text-align: center">商品描述</th>
+                    <th style="text-align: center">商品价格</th>
+                    <th style="text-align: center">商品类型</th>
+                    <th style="text-align: center">商品规格</th>
+                    <th style="text-align: center">商品热度</th>
+                    <th style="text-align: center">商品配图</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+</div>
+</body>
+</html>

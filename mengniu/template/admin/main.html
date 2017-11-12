@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/css/main.css">
+    <script src="../static/js/jquery.js"></script>
+    <script src="../static/js/main.js"></script>
+    <title>后台管理界面</title>
+</head>
+<body>
+    <div class="header">
+        <h1>后台管理系统</h1>
+        <ul class="headBtns">
+            <li><img class="headimg" src="" alt=""></li>
+            <li class="denglu"><a href="">首页</a></li>
+            <li class="tuichu"><a href="">退出</a></li>
+        </ul>
+    </div>
+    <div class="leftnav">
+        <h2>栏目管理</h2>
+        <ul>
+            <li><a href="addCategory.php" target="right">添加栏目</a></li>
+            <li><a href="showCategory.php" target="right">查看栏目</a></li>
+        </ul>
+        <h2>内容管理</h2>
+        <ul>
+            <?php
+                for($i=0;$i<count($data);$i++){
+            ?>
+            <li><a href="<?php echo $data[$i]['addtemplet'];?>?cid=<?php echo $data[$i]['cid'];?>" target="right"><?php echo $data[$i]['cname'];?></a></li>
+            <?php
+                }
+            ?>
+        </ul>
+        <h2>内容查看</h2>
+        <ul>
+            <?php
+                for($i=0;$i<count($data);$i++){
+                    if($data[$i]['addtemplet']=='addArticle1.php'){
+            ?>
+            <li>
+                <a href="showArticle1.php?cid=<?php echo $data[$i]['cid'];?>" target="right">
+                    <?php echo $data[$i]['cname'];?>
+                </a>
+            </li>
+            <?php
+                    }else if($data[$i]['pid']=='0'){
+            ?>
+            <li>
+                <a href="shownavcontent.php?cid=<?php echo $data[$i]['cid'];?>" target="right">
+                    <?php echo $data[$i]['cname'];?>
+                </a>
+            </li>
+            <?php
+                    }else if($data[$i]['addtemplet']=='addproductlist.php'){
+            ?>
+            <li>
+                <a href="showproductlist.php?cid=<?php echo $data[$i]['cid'];?>" target="right">
+                    <?php echo $data[$i]['cname'];?>
+                </a>
+            </li>
+            <?php
+                    }else if($data[$i]['addtemplet']=='addbuy.php'){
+            ?>
+            <li>
+                <a href="showbuy.php?cid=<?php echo $data[$i]['cid'];?>" target="right">
+                    <?php echo $data[$i]['cname'];?>
+                </a>
+            </li>
+            <?php
+                    }
+                }
+            ?>
+        </ul>
+    </div>
+    <div class="content">
+        <iframe src="" frameborder="0" name="right"></iframe>
+    </div>
+</body>
+</html>

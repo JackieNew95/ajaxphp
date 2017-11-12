@@ -1,0 +1,456 @@
+/*banner开始*/
+.page_wrap{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.banner_wrap, .banner_item {
+    height: 100%;
+    background: none 50% 0 no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.vscroller{
+    position: relative;
+    height: 1000%;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    transition: all ease 1s;
+}
+.banner_item{
+    overflow: visible;
+}
+.banner_item_1{
+    background: url("../img/index/index/0.d.jpg") 50% 50% no-repeat;
+    background-size: cover;
+}
+.banner_item_2{
+    background: url("../img/index/index/C.d.png") 50% 50% no-repeat;
+    background-size: cover;
+}
+.banner_item_3{
+    background: url("../img/index/index/D.d.png") 50% 50% no-repeat;
+    background-size: cover;
+}
+.banner_item_4{
+    background: url("../img/index/index/h.d.jpg") 50% 50% no-repeat;
+    background-size: cover;
+}
+.banner_item_5{
+    background: url("../img/index/index/d.png") 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.water_drop_wrap{
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    z-index: 30;
+}
+.water_drop{
+    position:absolute;
+    width:407px;
+    transform:translate3d(0,50%,0);
+    opacity: 0.9;
+    transition: all ease 2s;
+}
+.water_drop em{
+    display:block;
+    height:0;
+    padding-top:143%;
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.water_drop b{
+    display:block;
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background-repeat: no-repeat;
+    /*background:none 50% 100% no-repeat;*/
+    /*background:none 100% 100% no-repeat;*/
+    /*background-size:100%*/
+}
+.water_drop_wrap_1 .water_drop{
+    right:-3.5%;
+    top: 90%;
+    margin-top: -400px;
+}
+.water_drop_wrap_1 .water_drop em{
+    background:url(../img/bl.png);
+    background-repeat: no-repeat;
+}
+.water_drop_wrap_1 .water_drop b{
+    background-image:url(../img/cj.png);
+}
+.water_drop_wrap_2 .water_drop{
+    width:140px;
+    margin-top: 290px;
+    left:9.3%;
+    top: 51%;
+}
+.water_drop_wrap_2 .water_drop em{
+    opacity:.7;
+    background-image:url(../img/8.svg)
+}
+.water_drop_wrap_3 .water_drop{
+    width:275px;
+    left:26.2%;
+    margin-top: -330px;
+    top: 60%;
+}
+.water_drop_wrap_3 .water_drop em{
+    background-image:url(../img/9.svg)
+}
+.water_drop_wrap_3 .water_drop b{
+    background-image:url(../img/co.png)
+}
+.water_drop_wrap_4 .water_drop{
+    width:156px;
+    left:0;
+    top:128px;
+}
+.water_drop_wrap_4 .water_drop em{
+    background-image:url(../img/9.svg)
+}
+.water_drop_wrap_5 .water_drop{
+    width:364px;
+    left:34.14%;
+    top:5.75%
+}
+.water_drop_wrap_5 .water_drop em{
+    opacity:.68;
+    background-image:url(../img/7.svg)
+}
+.water_drop_wrap_5 .water_drop b{
+    background-image:url(../img/cs.png)
+}
+.water_drop_wrap_6 .water_drop{
+    left:8.59%;
+    bottom:3.33%;
+    width:240px
+}
+.water_drop_wrap_6 .water_drop em{
+    background-image:url(../img/8.svg)
+}
+.water_drop_wrap_6 .water_drop b{
+    background-image:url(../img/cl.png)
+}
+.water_drop_wrap_7 .water_drop{
+    width:127px;
+    left:74.6%;
+    bottom:-70px;
+    top:auto
+}
+.water_drop_wrap_8 .water_drop{
+    left:33.3%;
+    right:auto;
+    top:-18%;
+    bottom:auto;
+    width:353px
+}
+.water_drop_wrap_8 .water_drop em{
+    background-image:url(../img/9.svg)
+}
+.water_drop_wrap_8 .water_drop b{
+    background-image:url(../img/cm.png)
+}
+.water_drop_wrap_9 .water_drop{
+    left:90%;
+    bottom:82.4%;
+    top:auto;
+    width:242px
+}
+.water_drop_wrap_9 .water_drop em{
+    background-image:url(../img/8.svg)
+}
+.water_drop_wrap_9 .water_drop b{
+    /*background-image:url(../img/cq.png)*/
+}
+.water_drop_wrap_10 .water_drop{
+    left:23.2%;
+    top:4%;
+    bottom:90%;
+    width:100px
+}
+.water_drop_wrap_10 .water_drop em{
+    background-image:url(../img/9.svg)
+}
+.water_drop_wrap_11 .water_drop{
+    left:64%;
+    bottom:2.5%;
+    top:auto;
+    width:211px
+}
+.water_drop_wrap_11 .water_drop em{
+    background-image:url(../img/8.svg)
+}
+.water_drop_wrap_12 .water_drop{
+    left:auto;
+    right:3.8%;
+    bottom:auto;
+    top:-15%;
+    width:182px
+}
+.water_drop_wrap_12 .water_drop em{
+    background-image:url(../img/7.svg)
+}
+.water_drop_wrap_13 .water_drop{
+    left:26.8%;
+    margin-top: 300px;
+    top:-44%;
+    width:353px;
+    height:500px
+}
+.water_drop_wrap_13 .water_drop em{
+    background-image:url(../img/8.svg)
+}
+.water_drop_wrap_14 .water_drop{
+    right:-3.44%;
+    top:9.6%;
+    left:auto;
+    bottom:auto;
+    width:227px;
+    height:324px;
+    margin-top: 800px;
+}
+.water_drop_wrap_14 .water_drop em{
+    background-image:url(../img/9.svg)
+}
+.water_drop_wrap_15 .water_drop{
+    width:143px;
+    height:202px;
+    top:28%;
+    left:10.4%;
+    right:auto
+}
+.water_drop_wrap_15 .water_drop em{
+    background-image:url(../img/bl.png)
+}
+.water_drop_wrap_16 .water_drop{
+    width:118px;
+    left:21.1%;
+    top:16%
+}
+.water_drop_wrap_16 .water_drop em{
+    background-image:url(../img/8.svg)
+}
+.water_drop_wrap_17 .water_drop{
+    width:245px;
+    left:2.8%;
+    top:-38.5%;
+    bottom:auto
+}
+.water_drop_wrap_17 .water_drop em{
+    background-image:url(../img/9.svg)
+}
+.water_drop_wrap_18 .water_drop{
+    width:389px;
+    left:60.5%;
+    top:-28.2%;
+    bottom:auto
+}
+.water_drop_wrap_18 .water_drop em{
+    background-image:url(../img/7.svg)
+}
+.water_drop_wrap_18 .water_drop b{
+    background-image:url(../img/cj.png)
+}
+.water_drop_wrap_19 .water_drop{
+    width:241px;
+    left:28.6%;
+    top:auto;
+    bottom:-22.9%;
+}
+.water_drop_wrap_19 .water_drop em{
+    background-image:url(../img/9.svg)
+}
+.water_drop_wrap_20 .water_drop{
+    width:169px;
+    margin-top: 1000px;
+    right:8.3%;
+    top:auto;
+    bottom:3.4%
+}
+.water_drop_wrap_20 .water_drop em{
+    background-image:url(../img/8.svg)
+}
+
+.m .water_drop_wrap_1 .water_drop{
+    width:125px;
+    left:auto;
+    right:6%;
+    top:1.6%;
+    bottom:auto
+}
+.m .water_drop_wrap_2 .water_drop{
+    width:70px;
+    left:19.8%;
+    top:25%;
+    bottom:auto
+}
+.m .water_drop_wrap_3 .water_drop{
+    width:147px;
+    left:-2.8%;
+    top:auto;
+    bottom:4.7%
+}
+.m .water_drop_wrap_4 .water_drop{
+    width:77px;
+    left:16%;
+    top:-5%;
+    bottom:auto
+}
+/*.m .water_drop_wrap_4_1 .water_drop{
+    width:77px;
+    left:auto;
+    right:13%;
+    top:-12%;
+    bottom:auto
+}*/
+.m .water_drop_wrap_5 .water_drop{
+    width:107px;
+    left:19.4%;
+    top:22%;
+    bottom:auto
+}
+.m .water_drop_wrap_6 .water_drop{
+    width:140px;
+    left:-4.1%;
+    top:auto;
+    bottom:3%
+}
+.m .water_drop_wrap_7 .water_drop{
+    width:65px;
+    left:auto;
+    right:9%;
+    bottom:-7%;
+    top:auto
+}
+.m .water_drop_wrap_8 .water_drop{
+    width:132px;
+    top:30%;
+    right:1%
+}
+.m .water_drop_wrap_9 .water_drop{
+    width:126px;
+    left:15.6%;
+    top:auto;
+    bottom:7.5%
+}
+.m .water_drop_wrap_10 .water_drop{
+    width:90px;
+    bottom:-15%;
+    left:5%
+}
+.m .water_drop_wrap_11 .water_drop{
+    width:57px;
+    left:6%;
+    top:33.5%;
+    bottom:auto
+}
+.m .water_drop_wrap_12 .water_drop{
+    width:91px;
+    left:auto;
+    top:-15%
+}
+.m .water_drop_wrap_13 .water_drop{
+    left:10%;
+    top:-27%;
+    width:176px;
+    height:250px
+}
+.m .water_drop_wrap_14 .water_drop{
+    right:5%;
+    top:9.6%;
+    left:auto;
+    bottom:auto;
+    width:113px;
+    height:162px
+}
+.m .water_drop_wrap_15 .water_drop{
+    width:71px;
+    height:101px;
+    bottom:55%;
+    top:auto;
+    left:6.4%;
+    right:auto
+}
+.m .water_drop_wrap_16 .water_drop{
+    width:59px;
+    left:12%;
+    top:30%
+}
+.m .water_drop_wrap_17 .water_drop{
+    width:155px;
+    left:5%;
+    top:-27%
+}
+.m .water_drop_wrap_18 .water_drop{
+    width:140px;
+    left:auto;
+    right:-10%;
+    top:40%;
+    bottom:auto
+}
+.m .water_drop_wrap_19 .water_drop{
+    width:120px;
+    left:-10%;
+    bottom:16%
+}
+.m .water_drop_wrap_20 .water_drop{
+    width:60px;
+    right:3%;
+    bottom:-5%;
+    top:auto
+}
+.m .water_drop_wrap_21 .water_drop{
+    width:150px;
+    top:35%;
+    right:-5%
+}
+.m .water_drop_wrap_22 .water_drop{
+    width:160px;
+    left:10%;
+    top:-25%
+}
+.m .water_drop_wrap_23 .water_drop{
+    width:60px;
+    right:15%;
+    top:2.4%;
+    bottom:auto;
+    left:auto
+}
+
+/*banner结束*/
+
+/*点开始*/
+.scroller_page {
+    position: fixed;
+    left: 93px;
+    right: 0;
+    bottom: 36px;
+    text-align: center;
+    opacity: 1;
+    z-index: 999;
+    transition: all .7s ease-in-out;
+    -webkit-transition: all .7s ease-in-out;
+    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+}
+.scroller_page b {
+    display: inline-block;
+    background: url(../img/3E.png) 100% 100% no-repeat;
+    background-size: 44px;
+    margin-right: 26px;
+    width: 21px;
+    height: 29px;
+    cursor: pointer;
+}
+/*点结束*/

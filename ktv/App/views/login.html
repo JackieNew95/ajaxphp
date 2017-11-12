@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" style="width: 100%;height: 100%">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/ajaxphp/ktv/Public/css/bootstrap.css">
+    <script src="/ajaxphp/ktv/Public/js/jquery.js"></script>
+    <script src="/ajaxphp/ktv/Public/js/index.js"></script>
+    <title>登录页面</title>
+</head>
+<body style="width: 100%;height:100%;display: flex;align-items: center;justify-content: center">
+    <div class="panel panel-primary" style="width: 350px">
+        <div class="panel-heading">
+            <h3 class="panel-title">KTV后台管理系统</h3>
+        </div>
+        <div class="panel-body">
+            <form action="javascript:;"><!--不让点击按钮提交，因为要用ajax-->
+                <div class="form-group">
+                    <label for="uname">用户名</label>
+                    <input type="text" class="form-control" id="uname" name="uname" placeholder="请输入用户名">
+                </div>
+                <div class="form-group">
+                    <label for="upass">密码</label>
+                    <input type="password" class="form-control" id="upass" name="upass" placeholder="请输入密码">
+                </div>
+                <button type="submit" class="btn btn-primary">登录</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

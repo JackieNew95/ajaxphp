@@ -1,0 +1,58 @@
+    <?php include 'adminheader.html';?>
+    <script src="/ajaxphp/ktv/Public/js/gamemanager.js"></script>
+    <style>
+        input{
+            border: none;
+            background: none;
+            outline: none;
+            text-align: center;
+        }
+    </style>
+        <div class="container">
+
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist" id="myTab">
+                <li role="presentation" class="active">
+                    <a href="#add" id="add" aria-controls="home" role="tab" data-toggle="tab">添加</a>
+                </li>
+                <li role="presentation">
+                    <a href="#list" id="list" aria-controls="profile" role="tab" data-toggle="tab">查看</a>
+                </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="add-tab">
+                    <form action="javascript:;"><!--阻止点击按钮提交，因为要用ajax-->
+                        <div class="form-group">
+                            <label for="gname">游戏名</label>
+                            <input type="text" class="form-control" id="gname" name="gname" placeholder="请输入游戏名">
+                        </div>
+                        <div class="form-group">
+                            <label for="gtype">类型</label>
+                            <input type="text" class="form-control" id="gtype" name="gtype" placeholder="真心话:1,大冒险:2">
+                        </div>
+                        <button type="submit" class="btn btn-primary">添加</button>
+                    </form>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="list-tab">
+                    <table class="table table-bordered" style="text-align: center">
+                        <thead>
+                            <tr>
+                                <th style="text-align: center">ID</th>
+                                <th style="text-align: center">名称</th>
+                                <th style="text-align: center">类型</th>
+                                <th style="text-align: center">操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </body>
+</html>
