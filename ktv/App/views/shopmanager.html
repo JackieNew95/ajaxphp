@@ -1,11 +1,23 @@
 <?php include 'adminheader.html';?>
 <script src="/ajaxphp/ktv/Public/js/shopmanager.js"></script>
 <style>
-    input{
+    input,textarea{
         border: none;
         background: none;
         outline: none;
         text-align: center;
+    }
+    textarea{
+        resize: none;
+    }
+    td>img{
+        display: block;
+        max-width: 130px;
+        max-height: 50px;
+        margin: 0 auto;
+    }
+    table input{
+        width: 130px;
     }
 </style>
 <div class="container">
@@ -34,25 +46,55 @@
                 </div>
                 <div class="form-group">
                     <label for="price">商品价格</label>
-                    <input type="text" class="form-control" id="price" name="price" placeholder="请输入商品价格">
+                    <input type="text" class="form-control" id="price" name="price" placeholder="商品价格(RMB)">
                 </div>
                 <div class="form-group">
-                    <label for="stype">商品类型</label>
-                    <input type="text" class="form-control" id="stype" name="stype" placeholder="请输入商品类型">
-                </div>
-                <div class="form-group">
-                    <label for="size">商品规格</label>
-                    <input type="text" class="form-control" id="size" name="size" placeholder="请输入商品规格">
+                    <label for="ssize">商品规格</label>
+                    <input type="text" class="form-control" id="ssize" name="ssize" placeholder="商品规格请添加单位，如：300ml">
                 </div>
                 <div class="form-group">
                     <label for="hot">商品热度</label>
-                    <input type="text" class="form-control" id="hot" name="hot" placeholder="请输入商品热度">
+                    <input type="number" class="form-control" id="hot" name="hot" min="0" max="5" placeholder="商品热度:0 - 5">
                 </div>
                 <div class="form-group">
-                    <label for="img">商品配图</label>
-                    <input type="file" id="img">
-                    <p class="help-block">请输入商品配图</p>
+                    <label>商品类型</label>
+                    <input type="radio" name="stype" value="1">酒水
+                    <input type="radio" name="stype" value="2">零食
                 </div>
+
+                <div class="form-group">
+                    <label for="img">商品配图</label>
+                    <input type="file" id="img"><!--multiple设置允许多文件上传-->
+                </div>
+                <div class="imgBox" style="width: 100%;max-height: 100px">
+                    <style>
+                        .imgBox>img{
+                            display: block;
+                            float: left;
+                            max-height: 100px;
+                            width: auto;
+                        }
+                    </style>
+                    <img src="" class="img-thumbnail" id="thumb" alt="">
+                </div>
+
+                <div class="form-group">
+                    <input type="hidden" name="img"><!--利用隐藏的input保存上传的图片文件-->
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                    </div>
+                </div>
+
+             <!--   <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                    </div>
+                </div>-->
+
                 <button type="submit" class="btn btn-primary">添加</button>
             </form>
         </div>
@@ -68,6 +110,7 @@
                     <th style="text-align: center">商品规格</th>
                     <th style="text-align: center">商品热度</th>
                     <th style="text-align: center">商品配图</th>
+                    <th style="text-align: center">操作</th>
                 </tr>
                 </thead>
                 <tbody>

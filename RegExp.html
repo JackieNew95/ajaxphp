@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>正则表达式</title>
+</head>
+<body>
+
+</body>
+<script>
+    let str='124jh5j2523j25jh24jv24122bjb12';
+
+    let reg=/[0-9]/;//[0-9]跟[0,1,2,3,4,5,6,7,8,9]是一个意思
+    let arr=str.match(reg);
+    console.log(arr);
+
+    let reg1=/[a-z]/;//  /之间有几位则查几位/，[]算一位
+    let arr1=str.match(reg1);
+    console.log(arr1);
+
+    let reg2=/h/;//字母不用加引号
+    console.log(str.match(reg2));
+    console.log(str.match(reg2));
+    console.log(str.match(reg2));
+
+    let reg3=/j/g;//  g 全局匹配，可以让相同的查询接着向后走
+    console.log(reg3.exec(str));
+    console.log(reg3.exec(str));
+    console.log(reg3.exec(str));
+
+    let reg4=/\d+/g;
+    let arr4=str.match(reg4);
+    console.log(arr4);
+
+    let name='zhangsan@';
+    let name1='zha@ngsan';
+    let user=/[0-9a-zA-Z]{6}/;
+    console.log(user.test(name));
+    console.log(user.test(name1));
+    //正则是部分匹配原则 例子：只规定了前六位的规则，但被检查的字符串有更多位的话，只查前六位符合规则就会返回true
+
+/*
+    标签规则：
+    let tag=/<[a-z][a-z0-9]{0,8}>/;
+    手机号:
+    let tel=/[0-9]{11}/
+    身份证号:
+*/
+
+</script>
+</html>

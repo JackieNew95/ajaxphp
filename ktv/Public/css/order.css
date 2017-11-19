@@ -1,0 +1,213 @@
+@import "base.css";
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    padding: 0 0.24rem;
+    background: url("../img/gbj.png") center / cover no-repeat;
+}
+header{
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header>a{
+    display: block;
+    width: 0.4rem;
+    height: 0.6rem;
+}
+header>a:nth-of-type(1){
+    background: url("../img/at_04.png") 0 0 / contain no-repeat;
+}
+header>p{
+    font-size: 0.34rem;
+    color: #FFFFFF;
+    text-align: center;
+    position: relative;
+}
+header>p:before,header>p:after{
+    content: '';
+    display: block;
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #FFFFFF;
+    position: absolute;
+    top: 0.18rem;
+}
+header>p:before{
+    left: -0.3rem;
+}
+header>p:after{
+    right: -0.3rem;
+}
+header>p>span{
+    display: block;
+    font-size: 0.3rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+.wrapper{
+    width: 100%;
+    height: 9rem;
+    overflow: hidden;
+    background: #FFFFFF;
+    border-radius: 0.1rem;
+}
+.main{
+    width: 100%;
+    height: auto;
+}
+.main li{
+    width: 100%;
+    height: 2.7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main  li .mleft{
+    width: 2.5rem;
+    height: 100%;
+    padding: 0 0.24rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main li>.mleft>img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.main li>.mright{
+    width: 4rem;
+    height: 1.6rem;
+    padding: 0 0.24rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+ .main li>.mright>.top{
+    width: 100%;
+    height: 0.8rem;
+    padding-bottom: 0.1rem;
+ }
+.main li>.mright>.top>b{
+    display: block;
+    font-size: 0.3rem;
+    font-weight: 900;
+    color: #FC3195;
+}
+.main li>.mright>.top>span{
+    display: block;
+    width: auto;
+    float: left;
+    font-size: 0.24rem;
+    color: #454D58;
+}
+ .main li>.mright>.top>i{
+     display: block;
+     width: auto;
+     float: right;
+     font-size: 0.24rem;
+     font-style: normal;
+     color: #A2A2A2;
+ }
+.main li>.mright>.bottom{
+    width: 100%;
+    height: 0.8rem;
+    background: url("../img/borderBottom.png") 0 0 / contain no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.main li>.mright>.bottom>.bleft{
+    width: 1.8rem;
+    height: 0.36rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main li>.mright>.bottom>.bleft>i{
+    display: block;
+    width: 0.36rem;
+    height: 0.36rem;
+    margin-right: 0.14rem;
+    float: left;
+}
+.main li>.mright>.bottom>.bleft>i:nth-of-type(1){
+    background: url("../img/subtract.png") center / contain no-repeat;
+}
+.main li>.mright>.bottom>.bleft>i:nth-of-type(2){
+    background: url("../img/plus.png") center / contain no-repeat;
+}
+.main li>.mright>.bottom>.bleft>span{
+    display: block;
+    width: 0.84rem;
+    height: 0.36rem;
+    border: 0.02rem solid #dcdcdc;
+    border-radius: 0.18rem;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.32rem;
+    margin-right: 0.14rem;
+    color: #858585;
+    float: left;
+}
+.main li>.mright>.bottom>.bright{
+    display: flex;
+    width: auto;
+    height: 0.8rem;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.main li>.mright>.bottom>.bright>b{
+    display: block;
+    float: left;
+    font-size: 0.4rem;
+    color: #FE318E;
+}
+.main li>.mright>.bottom>.bright>span{
+    display: block;
+    float: left;
+    font-size: 0.3rem;
+    color: #FE318E;
+}
+.footer{
+    width: 100%;
+    height: 2.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+.footer>.price{
+    width: 100%;
+    height: 1.7rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.footer>.price>img{
+    display: block;
+    width: 2.82rem;
+    height: 0.48rem;
+}
+.footer>.price>b{
+    display: block;
+    font-size: 0.6rem;
+    color: #FF318E;
+}
+.footer>button{
+    width: 5.72rem;
+    height: 1rem;
+    background: url("../img/button01.png") center/contain no-repeat;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    font-size: 0.32rem;
+    line-height: 1rem;
+}

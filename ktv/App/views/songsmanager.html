@@ -1,0 +1,92 @@
+<?php include 'adminheader.html';?>
+<script src="/ajaxphp/ktv/Public/js/songsmanager.js"></script>
+<style>
+    input,textarea{
+        border: none;
+        background: none;
+        outline: none;
+        text-align: center;
+    }
+    textarea{
+        resize: none;
+    }
+    td>img{
+        display: block;
+        max-width: 130px;
+        max-height: 50px;
+        margin: 0 auto;
+    }
+    table input{
+        width: 130px;
+    }
+</style>
+
+<div class="container-fluid">
+    <div class="row">
+        <?php include 'aside.html';?>
+        <div class="col-md-10">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist" id="myTab">
+                <li role="presentation" class="active">
+                    <a href="#add" id="add" aria-controls="home" role="tab" data-toggle="tab">添加</a>
+                </li>
+                <li role="presentation">
+                    <a href="#list" id="list" aria-controls="profile" role="tab" data-toggle="tab">查看</a>
+                </li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="add-tab">
+                    <form action="javascript:;"><!--阻止点击按钮提交，因为要用ajax-->
+                        <div class="form-group">
+                            <label for="gname">歌曲名字</label>
+                            <input type="text" class="form-control" id="gname" name="gname" placeholder="请输入歌曲名字">
+                        </div>
+                        <div class="form-group">
+                            <label for="gtime">歌曲时长</label>
+                            <input type="text" class="form-control" id="gtime" name="gtime" placeholder="请输入歌曲时长">
+                        </div>
+                        <div class="form-group">
+                            <label for="sid">歌手</label>
+                            <select class="form-control" name="sid" id="sid">
+                                <?php
+                                for($i=0;$i<count($result);$i++){
+                             ?>
+                                <option value="<?php echo $result[$i]['sid']?>"><?php echo $result[$i]['sname']?></option>
+                                <?php
+                                }
+                             ?>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="lyric">歌词</label>
+                            <input type="text" class="form-control" id="lyric" name="lyric" placeholder="请输入歌词">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">添加</button>
+                    </form>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="list-tab">
+                    <table class="table table-bordered" style="text-align: center">
+                        <thead>
+                        <tr>
+                            <th style="text-align: center">歌曲ID</th>
+                            <th style="text-align: center">歌曲名字</th>
+                            <th style="text-align: center">歌曲时长</th>
+                            <th style="text-align: center">歌手</th>
+                            <th style="text-align: center">歌词</th>
+                            <th style="text-align: center">操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>

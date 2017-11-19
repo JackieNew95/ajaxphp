@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let str = '124f12jg645jhg123cj4jv1';
+    let result=[];
+    let char='';
+
+    for(let i=0;i<str.length;i++){
+        if(str[i]>=0||str[i]<=9){
+            char+=str[i];
+        }else {
+            if(char){
+                result.push(char);
+                char='';
+            }
+        }
+    }
+    if(char){
+        result.push(char);
+        char='';
+    }
+
+    console.log(result);
+
+</script>
+</html>

@@ -1,0 +1,132 @@
+@import "base.css";
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    overflow: hidden;
+    background: url("../img/gbj.png") center/cover no-repeat;
+    padding: 0 0.24rem;
+}
+header{
+    width: 100%;
+    height: 0.88rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header>a{
+    display: block;
+    width: 0.4rem;
+    height: 0.4rem;
+}
+header>a:nth-of-type(1){
+    background:url("../img/at_04.png") center / cover no-repeat;
+}
+header>p{
+    font-size: 0.36rem;
+    color: #FFFFFF;
+}
+.nav{
+    width: 100%;
+    height: 1.4rem;
+    margin-bottom: 0.24rem;
+}
+.nav>li{
+    width: 25%;
+    height: 0.7rem;
+    float: left;
+    text-align: center;
+    line-height: 0.7rem;
+    color: #FFFFFF;
+    font-size: 0.3rem;
+}
+.nav>input{
+    display: block;
+    width: 100%;
+    height: 0.7rem;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.7rem;
+    color: #C1C2CE;
+    border: none;
+    outline: none;
+    border-radius: 0.05rem;
+}
+.aside{
+    width: 0.48rem;
+    height: 11rem;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background: #F5F3FF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
+}
+.aside>li{
+    width: 0.3rem;
+    font-size: 0.32rem;
+    text-align: center;
+    background: #FFFFFF;
+    color: #7C788A;
+}
+.aside>li.active{
+    width: 0.48rem;
+    padding-left: 0.18rem;
+    color: #FFFFFF;
+    background: #FF318D;
+    border-radius: 50% 0 0 50%;
+}
+.list{
+    width: 100%;
+    height: 10.62rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.list-contant{
+    width: 6.7rem;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+.list-contant>li{
+    width: 2.1rem;
+    height: 3.54rem;
+    border: 0.01rem solid #FFFFFF;
+    border-radius: 0.1rem;
+    position: relative;
+}
+.list-contant>li>a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+}
+.list-contant>li>a>img{
+    display: block;
+    width: 100%;
+    height: 2.94rem;
+}
+.list-contant>li>a>div{
+    width: 100%;
+    height: 0.6rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.list-contant>li>a>div>span{
+    text-align: center;
+    color: #575861;
+    font-size: 0.24rem;
+    font-weight: 600;
+}

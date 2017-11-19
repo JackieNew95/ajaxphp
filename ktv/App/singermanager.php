@@ -1,5 +1,5 @@
 <?php
-class shopmanager{
+class singermanager{
     function __construct()
     {
         $obj=new db();
@@ -7,12 +7,14 @@ class shopmanager{
     }
 
     function index(){
-        $title='商店管理';
-        include 'App/views/shopmanager.html';
+        $title='歌手管理';
+        $result=$this->mysql->query("select * from singertype")->fetch_all(MYSQL_ASSOC);
+
+        include 'App/views/singermanager.html';
     }
 
     function show(){
-        $data=$this->mysql->query("select * from shop")->fetch_all(MYSQL_ASSOC);
+        $data=$this->mysql->query("select * from singers")->fetch_all(MYSQL_ASSOC);
         echo json_encode($data);
     }
 
@@ -28,7 +30,7 @@ class shopmanager{
             $str .="'{$v}',";
         }
         $str =substr($str,0,-1).')';
-        $data=$this->mysql->query("insert into shop $str");
+        $data=$this->mysql->query("insert into singers $str");
         if($this->mysql->affected_rows>0){
             echo 'ok';
         }else{
@@ -38,7 +40,7 @@ class shopmanager{
 
     function delete(){
         $sid=$_GET['id'];
-        $this->mysql->query("delete from shop where sid=$sid");
+        $this->mysql->query("delete from singers where sid=$sid");
         if($this->mysql->affected_rows>0){
             echo 'ok';
         }else{
@@ -50,7 +52,7 @@ class shopmanager{
         $value=$_GET['value'];
         $type=$_GET['type'];
         $sid=$_GET['sid'];
-        $this->mysql->query("update shop set $type='{$value}' where sid=$sid");
+        $this->mysql->query("update singers set $type='{$value}' where sid=$sid");
         if($this->mysql->affected_rows>0){
             echo 'ok';
         }else{

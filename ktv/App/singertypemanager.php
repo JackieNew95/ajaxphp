@@ -1,5 +1,5 @@
 <?php
-class shopmanager{
+class singertypemanager{
     function __construct()
     {
         $obj=new db();
@@ -7,12 +7,12 @@ class shopmanager{
     }
 
     function index(){
-        $title='商店管理';
-        include 'App/views/shopmanager.html';
+        $title='分类管理';
+        include 'App/views/singertypemanager.html';
     }
 
     function show(){
-        $data=$this->mysql->query("select * from shop")->fetch_all(MYSQL_ASSOC);
+        $data=$this->mysql->query("select * from singertype")->fetch_all(MYSQL_ASSOC);
         echo json_encode($data);
     }
 
@@ -28,7 +28,7 @@ class shopmanager{
             $str .="'{$v}',";
         }
         $str =substr($str,0,-1).')';
-        $data=$this->mysql->query("insert into shop $str");
+        $data=$this->mysql->query("insert into singertype $str");
         if($this->mysql->affected_rows>0){
             echo 'ok';
         }else{
@@ -37,8 +37,8 @@ class shopmanager{
     }
 
     function delete(){
-        $sid=$_GET['id'];
-        $this->mysql->query("delete from shop where sid=$sid");
+        $tid=$_GET['id'];
+        $this->mysql->query("delete from singertype where tid=$tid");
         if($this->mysql->affected_rows>0){
             echo 'ok';
         }else{
@@ -49,8 +49,8 @@ class shopmanager{
     function update(){
         $value=$_GET['value'];
         $type=$_GET['type'];
-        $sid=$_GET['sid'];
-        $this->mysql->query("update shop set $type='{$value}' where sid=$sid");
+        $tid=$_GET['tid'];
+        $this->mysql->query("update singertype set $type='{$value}' where tid=$tid");
         if($this->mysql->affected_rows>0){
             echo 'ok';
         }else{

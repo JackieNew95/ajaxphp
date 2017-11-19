@@ -9,6 +9,7 @@ class gamemanager{
     }
 
     function index(){
+        $title='游戏管理';
         include 'App/views/gamemanager.html';
     }
     function insert(){

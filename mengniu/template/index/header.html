@@ -18,115 +18,53 @@
     </div>
     <div class="nav_main_wrap">
         <ul class="nav_main">
-            <li class="nav1 nav_home">
+            <?php
+                for($i=0;$i<count($data);$i++){
+                    if($data[$i]['cid']==1){
+            ?>
+            <li class="nav1">
                 <div class="nav_item_wrap">
-                    <a href="index.php" class="nav_item">
+                    <a href="<?php echo $data[$i]['templet'];?>" class="nav_item">
                         <u class="u1">
                             <i></i>
-                            <b>首页</b>
+                            <b><?php echo $data[$i]['cname'];?></b>
                         </u>
                     </a>
                 </div>
             </li>
-            <li class="nav1 nav_about">
+            <?php
+                    }else{
+            ?>
+            <li class="nav1">
                 <div class="sub_nav_wrap">
                     <div class="sub_nav"></div>
                 </div>
                 <div class="nav_item_wrap">
-                    <a href="about.php" class="nav_item">
-                        <u class="u2">
+                    <a href="<?php echo $data[$i]['templet'];?>" class="nav_item">
+                        <u>
                             <i></i>
-                            <b>关于蒙牛</b>
+                            <b><?php echo $data[$i]['cname'];?></b>
                         </u>
                     </a>
                     <ul>
+                        <?php
+                        $sql="select * from category where pid={$data[$i]['cid']}";
+                        $result=$mysql->query($sql)->fetch_all(MYSQL_ASSOC);
+                           for($j=0;$j<count($result);$j++){
+                         ?>
                         <li>
-                            <a href="introduce.php" class="sub_nav_1">集团介绍</a>
+                            <a href="<?php echo $result[$j]['templet'];?>"><?php echo $result[$j]['cname'];?></a>
                         </li>
-                        <li>
-                            <a href="introduce.php" class="sub_nav_2">核心价值</a>
-                        </li>
-                        <li>
-                            <a href="introduce.php" class="sub_nav_3">企业荣誉</a>
-                        </li>
-                        <li>
-                            <a href="contactus.php" class="sub_nav_4">联系我们</a>
-                        </li>
+                        <?php
+                        }
+                      ?>
                     </ul>
                 </div>
             </li>
-            <li class="nav1 nav_product">
-                <div class="sub_nav_wrap">
-                    <div class="sub_nav"></div>
-                </div>
-                <div class="nav_item_wrap">
-                    <a href="product.php" class="nav_item">
-                        <u class="u3">
-                            <i></i>
-                            <b>品牌与产品</b>
-                        </u>
-                    </a>
-                    <ul>
-                        <li>
-                            <a href="productlist.php" class="sub_nav_1">品牌与产品</a>
-                        </li>
-                        <li>
-                            <a href="introduce.php" class="sub_nav_2">购买产品</a>
-                        </li>
-                    </ul>
-                </div>
-            </li>
-            <li class="nav1 nav_duty">
-                <div class="sub_nav_wrap">
-                    <div class="sub_nav"></div>
-                </div>
-                <div class="nav_item_wrap">
-                    <a href="duty.php" class="nav_item">
-                        <u class="u4">
-                            <i></i>
-                            <b>可持续发展</b>
-                        </u>
-                    </a>
-                    <ul>
-                        <li>
-                            <a href="introduce.php" class="sub_nav_1">有你最美</a>
-                        </li>
-                        <li>
-                            <a href="introduce.php" class="sub_nav_2">成长共赢</a>
-                        </li>
-                        <li>
-                            <a href="introduce.php" class="sub_nav_3">绿色发展</a>
-                        </li>
-                        <li>
-                            <a href="introduce.php" class="sub_nav_4">报告下载</a>
-                        </li>
-                    </ul>
-                </div>
-            </li>
-            <li class="nav1 nav_news">
-                <div class="sub_nav_wrap">
-                    <div class="sub_nav"></div>
-                </div>
-                <div class="nav_item_wrap">
-                    <a href="news.php" class="nav_item">
-                        <u  class="u5">
-                            <i></i>
-                            <b>新闻与活动</b>
-                        </u>
-                    </a>
-                    <ul>
-                        <li>
-                            <a href="introduce.php" class="sub_nav_1">热点新闻</a>
-                        </li>
-                        <li>
-                            <a href="introduce.php" class="sub_nav_2">工厂参观</a>
-                        </li>
-                        <li>
-                            <a href="introduce.php" class="sub_nav_3">招标公告</a>
-                        </li>
-                    </ul>
-                </div>
-            </li>
+            <?php
+                }
+            }
+            ?>
         </ul>
     </div>
 </div>
