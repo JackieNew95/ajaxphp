@@ -8,6 +8,8 @@
 
 </body>
 <script>
+
+/*
     let str='124jh5j2523j25jh24jv24122bjb12';
 
     let reg=/[0-9]/;//[0-9]跟[0,1,2,3,4,5,6,7,8,9]是一个意思
@@ -39,13 +41,105 @@
     console.log(user.test(name1));
     //正则是部分匹配原则 例子：只规定了前六位的规则，但被检查的字符串有更多位的话，只查前六位符合规则就会返回true
 
-/*
-    标签规则：
-    let tag=/<[a-z][a-z0-9]{0,8}>/;
-    手机号:
-    let tel=/[0-9]{11}/
-    身份证号:
+    let reg5=/[^0-9]/;//除数字外的任意字符等价于/\D/
+    console.log(reg5.exec(str));
+
+    let reg6=/[a-zA-Z0-9_]/;//数字字母下划线相当于/\w/
+    let reg7=/[^a-zA-Z0-9_]/;//非数字字母下划线相当于/\W/
+
+    console.log(reg6.exec(str));
+    console.log(reg7.exec(str));
+
+
+    let username=/\w{6,}/;//数字字母下划线，最少6位
+    console.log(username.test("zhangsan"));
+    let pass=/\w{6,12}/;//6-12位密码
+    console.log(pass.test("23456708"));
+    let qq=/[1-9]\w{4,12}/;//5-12位qq号
+    console.log(qq.test("387066754"));
+
+    let email=/\w+@(qq|126|163)\w+\.\w+/
+    console.log(email.test("223424@qq.com"));
+    console.log(email.test("张三387066754@qq.com"));
+    //正则是部分匹配原则 被验证的字符串中只要有一部分符合规则就会返回true
+
+    let email1=/^\w+@(qq|126|163)\w+\.\w+/;
+    console.log(email1.test("223424@qq.com"));
+    console.log(email1.test("张三387066754@qq.com"));
+    //加界定符就会限制开头^结尾$
+
+    let zanghua=/呵呵呵|儿/g;
+    let content='哈哈哈去找呵呵呵玩儿';
+    console.log(content.replace(zanghua,'***'));
+
+    let phone=/\(?\d{4}\)?\d{7}/;//匹配(0355)3010950类型的电话
+    let phone1=/\d{3}-\d{8}/;//匹配010-12345678类型的电话
+    let phone2=/\(?\d{3,4}[),-]?\d{7,8}/;//匹配(0355)3010950或010-12345678类型的电话
+
+    phone3=/\d{4}-\d{7}|\d{3}-\d{8}/;//匹配010-12345678或0101-1234567类型的电话
+
+
+    let ip=/(\d{0,3}\.){3}\d{0,3}/;
+    console.log(ip.test("126.168.0.1"));
+
+    let str3="<b>这是b</b>"
+    let html=/<([a-zA-Z0-9]+)>(.*)+<\/[a-zA-Z0-9]>/;//前后可能不一样
+    let html1=/<([a-zA-Z0-9]+)>(.*)+<\/\1>/;//分组引用可以前后闭合，一个（）一组，从1开始
+    let html2=/<(?:[a-zA-Z0-9]+)>(.*)+<\/\1>/;//?:取消反向引用,会从之后的()开始算第一组
+    console.log(html.exec(str3));
+
+    /!*    ()用来分组捕获，不仅匹配整体，还能够获取到组里匹配的内容(分组子表达式其中的内容)
+    *     |或
+    *     .除了换行以外任意的字符
+    *
+    * *!/
+
+    let num=/a.*b/;
+    let str8="abaabaaabaaaabaaaaaabaaaaaab";
+    console.log(num.exec(str8));
+    /!*贪婪匹配 会匹配上能取得的最长的结果*!/
+    let num1=/a.*?b/;
+    let str9="abaabaaabaaaabaaaaaabaaaaaab";
+    console.log(num1.exec(str9));
+    /!*在量词后面加？可以取消贪婪匹配*!/
+
+
+    str.replace(/\d+/g);
+    str.match(/\d+/g);
+    str.split(/[a-zA-Z]+/);//按照字母位置分开字符串，加不加g没区别
+    /!*以上三个均支持全局匹配g*!/
+
+    str.search(/[a-z]/);//不支持全局匹配,写上没用
+    str.search(/[a-z]/);//不支持全局匹配,写上没用
+    str.search(/[a-z]/);//不支持全局匹配,写上没用
+
+    let reg9=/js/i;
+    let str1='JavaScript.js';
+    console.log(reg9.exec(str1));//i忽略大小写
+
+    let reg2=/^hello$/m;//多行匹配，不仅会检查一开始和最后，而且会检查每行的开头和结尾
+    console.log(reg2.test("hello world"));
+    console.log(reg2.test("hello"));
+    console.log(reg2.test("hello\n"));//\n换行
+
 */
+//////////////////////////////以上为笔记//////////////////////////////////////////
+    /*
+        标签规则：
+        let tag=/<[a-z][a-z0-9]{0,8}>/;
+        手机号:
+        let tel=/[0-9]{11}/
+        身份证号:
+    */
+    let pass=/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,10}$/;
+    let tel=/^(\(\d{3,4}-\)|\d{3.4}-)?\d{7,8}$/;
+    let qq=/[1-9][0-9]{4,}/;
+    let email=/^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
+    let url=/^http:\/\/([\w-]+\.)+[\w-]+(\/[\w-.\/?%&=]*)?$/;
+    let date=/^\d{4}-\d{1,2}-\d{1,2}/;
+    let id=/^\d{15}|\d{18}$/;
+    let Chinese=/^[\u4e00-\u9fa5]{0,}$/;
+
 
 </script>
 </html>

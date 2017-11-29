@@ -12,160 +12,58 @@
     <script src="/ajaxphp/ktv/Public/js/songslist.js"></script>
     <link rel="stylesheet" href="/ajaxphp/ktv/Public/css/songslist.css">
 </head>
-<body style="background: url('/ajaxphp/ktv/Public/img/singer-01.png') 50% -60% / contain no-repeat">
+<body style="background: url('<?php echo $singer['simg'];?>') 50% -60% / contain no-repeat">
 <header>
     <div class="top">
         <a href="javascript:history.back();"></a>
-        <p>莫文蔚</p>
-        <a></a>
+        <p><?php echo $singer['sname'];?></p>
+        <a href="/ajaxphp/ktv/index.php/sing/songsalready">已选歌曲</a>
     </div>
     <div class="bottom">
         <div class="bleft">
-            <img src="/ajaxphp/ktv/Public/img/singer-01.png" alt="">
+            <img style="background: url('<?php echo $singer['simg'];?>') 0 0 / cover no-repeat ">
         </div>
         <div class="bright">
             <div class="rtop">
-                <h2>莫文蔚 - 华语女歌手</h2>
+                <h2><?php echo $singer['sname'];?> - <?php echo $tname['tname'];?></h2>
                 <span>
                     <i></i>
                     <b>歌曲</b>
-                    <em>92</em>
+                    <em><?php echo $singer['totalsongs'];?></em>
                 </span>
                 <span>
                     <i></i>
                     <b>MV</b>
-                    <em>94</em>
+                    <em><?php echo $singer['totalmvs'];?></em>
                 </span>
             </div>
             <div class="rbottom">
                 <span>本月点击量:</span>
-                <span>79824</span>
+                <span><?php echo $singer['hits'];?></span>
             </div>
         </div>
     </div>
 </header>
 <div class="main">
     <ul class="list">
-        <li>
-            <i>01</i>
+        <?php
+        for($i=0;$i<count($songs);$i++){
+        ?>
+        <li songdata='<?php echo json_encode($songs[$i]);?>' singername="<?php echo $singer['sname'];?>">
+            <i><?php
+                $num=$i+1;
+                echo sprintf("%02d",$num)
+              ;?>
+            </i>
             <div>
-                <b>阴天—莫文蔚</b>
-                <span>3''20'</span>
+                <b><?php echo $songs[$i]['gname'];?> - <?php echo $singer['sname'];?></b>
+                <span><?php echo $songs[$i]['gtime'];?></span>
             </div>
             <em></em>
         </li>
-        <li>
-            <i>01</i>
-            <div>
-                <b>阴天—莫文蔚</b>
-                <span>3''20'</span>
-            </div>
-            <em></em>
-        </li>
-        <li>
-            <i>01</i>
-            <div>
-                <b>阴天—莫文蔚</b>
-                <span>3''20'</span>
-            </div>
-            <em></em>
-        </li>
-        <li>
-            <i>01</i>
-            <div>
-                <b>阴天—莫文蔚</b>
-                <span>3''20'</span>
-            </div>
-            <em></em>
-        </li>
-        <li>
-            <i>01</i>
-            <div>
-                <b>阴天—莫文蔚</b>
-                <span>3''20'</span>
-            </div>
-            <em></em>
-        </li>
-        <li>
-            <i>01</i>
-            <div>
-                <b>阴天—莫文蔚</b>
-                <span>3''20'</span>
-            </div>
-            <em></em>
-        </li>
-        <li>
-            <i>01</i>
-            <div>
-                <b>阴天—莫文蔚</b>
-                <span>3''20'</span>
-            </div>
-            <em></em>
-        </li>
-        <li>
-            <i>01</i>
-            <div>
-                <b>阴天—莫文蔚</b>
-                <span>3''20'</span>
-            </div>
-            <em></em>
-        </li>
-        <li>
-            <i>01</i>
-            <div>
-                <b>阴天—莫文蔚</b>
-                <span>3''20'</span>
-            </div>
-            <em></em>
-        </li>
-        <li>
-            <i>01</i>
-            <div>
-                <b>阴天—莫文蔚</b>
-                <span>3''20'</span>
-            </div>
-            <em></em>
-        </li>
-        <li>
-            <i>01</i>
-            <div>
-                <b>阴天—莫文蔚</b>
-                <span>3''20'</span>
-            </div>
-            <em></em>
-        </li>
-        <li>
-            <i>01</i>
-            <div>
-                <b>阴天—莫文蔚</b>
-                <span>3''20'</span>
-            </div>
-            <em></em>
-        </li>
-        <li>
-            <i>01</i>
-            <div>
-                <b>阴天—莫文蔚</b>
-                <span>3''20'</span>
-            </div>
-            <em></em>
-        </li>
-        <li>
-            <i>01</i>
-            <div>
-                <b>阴天—莫文蔚</b>
-                <span>3''20'</span>
-            </div>
-            <em></em>
-        </li>
-        <li>
-            <i>01</i>
-            <div>
-                <b>阴天—莫文蔚</b>
-                <span>3''20'</span>
-            </div>
-            <em></em>
-        </li>
+        <?php
+            }
+        ?>
     </ul>
 </div>
 

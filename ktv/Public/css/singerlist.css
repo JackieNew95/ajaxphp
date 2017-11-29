@@ -18,11 +18,13 @@ header{
 }
 header>a{
     display: block;
-    width: 0.4rem;
+    width: 1.2rem;
     height: 0.4rem;
+    color: #FFFFFF;
+    font-size: 0.24rem;
 }
 header>a:nth-of-type(1){
-    background:url("../img/at_04.png") center / cover no-repeat;
+    background:url("../img/at_04.png") 0 0 / contain no-repeat;
 }
 header>p{
     font-size: 0.36rem;
@@ -37,6 +39,25 @@ header>p{
     width: 25%;
     height: 0.7rem;
     float: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav>li>i{
+    display: block;
+    width: 0.35rem;
+    height: 0.35rem;
+    background: url("../img/yylb1.png") center / cover no-repeat;
+    margin-right: 0.05rem;
+    opacity: 0;
+}
+.nav>li>i.active{
+    opacity: 1;
+}
+.nav>li>a{
+    display: block;
+    width: auto;
+    height: 100%;
     text-align: center;
     line-height: 0.7rem;
     color: #FFFFFF;
@@ -68,7 +89,8 @@ header>p{
 }
 .aside>li{
     width: 0.3rem;
-    font-size: 0.32rem;
+    height: 0.42rem;
+    font-size: 0.3rem;
     text-align: center;
     background: #FFFFFF;
     color: #7C788A;
@@ -89,16 +111,17 @@ header>p{
     align-items: flex-start;
 }
 .list-contant{
-    width: 6.7rem;
+    width: 6.75rem;
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-content: center;
 }
 .list-contant>li{
     width: 2.1rem;
     height: 3.54rem;
+    margin-right: 0.15rem;
     border: 0.01rem solid #FFFFFF;
     border-radius: 0.1rem;
     position: relative;
@@ -129,4 +152,11 @@ header>p{
     color: #575861;
     font-size: 0.24rem;
     font-weight: 600;
+}
+.list-contant>li>a>div>span:nth-of-type(1){
+    display: block;
+    width: 1.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

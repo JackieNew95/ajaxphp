@@ -6,54 +6,38 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>歌手</title>
+    <script src="/ajaxphp/ktv/Public/js/jquery.js"></script>
+    <script src="/ajaxphp/ktv/Public/js/iscroll.js"></script>
     <script src="/ajaxphp/ktv/Public/js/rem.js"></script>
+    <script src="/ajaxphp/ktv/Public/js/singer.js"></script>
     <link rel="stylesheet" href="/ajaxphp/ktv/Public/css/singer.css">
 </head>
 <body>
 <header>
     <a href="javascript:history.back();"></a>
     <p>歌手</p>
-    <a></a>
+    <a href="/ajaxphp/ktv/index.php/sing/songsalready">已选歌曲</a>
 </header>
 <ul class="nav">
-    <li>歌手</li>
-    <li>排行</li>
-    <li>常唱</li>
-    <li>推荐歌单</li>
+    <li><i class="active"></i><a href="/ajaxphp/ktv/index.php/sing/index">歌手</a></li>
+    <li><i></i><a href="/ajaxphp/ktv/index.php/sing/paihang">排行</a></li>
+    <li><i></i><a href="">常唱</a></li>
+    <li><i></i><a href="">推荐歌单</a></li>
     <input type="text" placeholder="请输入您要搜索的歌手">
 </ul>
 <div class="list">
     <ul class="list-contant">
-        <li style="background: url('/ajaxphp/ktv/Public/img/banner1.png') center / cover no-repeat">
-            <a href="">
-                <h2>内地偶像组合</h2>
+        <?php
+            for($i=0;$i<count($result);$i++){
+       ?>
+        <li style="background: url('<?php echo $result[$i]['timg'];?>') center / cover no-repeat">
+            <a href="/ajaxphp/ktv/index.php/sing/select?tid=<?php echo $result[$i]['tid'];?>">
+                <h2><?php echo $result[$i]['tname'];?></h2>
             </a>
         </li>
-        <li style="background: url('/ajaxphp/ktv/Public/img/nan1.png') center / cover no-repeat">
-            <a href="">
-                <h2>内地男歌手</h2>
-            </a>
-        </li>
-        <li style="background: url('/ajaxphp/ktv/Public/img/nvzhong.png') center / cover no-repeat">
-            <a href="">
-                <h2>港台歌手</h2>
-            </a>
-        </li>
-        <li style="background: url('/ajaxphp/ktv/Public/img/singer-04.png') center / cover no-repeat">
-            <a href="">
-                <h2>日韩女歌手</h2>
-            </a>
-        </li>
-        <li style="background: url('/ajaxphp/ktv/Public/img/ndv.png') center / cover no-repeat">
-            <a href="">
-                <h2>内地女歌手</h2>
-            </a>
-        </li>
-        <li style="background: url('/ajaxphp/ktv/Public/img/qcox.png') center / cover no-repeat">
-            <a href="">
-                <h2>青春偶像男歌手</h2>
-            </a>
-        </li>
+        <?php
+            }
+       ?>
     </ul>
 </div>
 </body>

@@ -1,6 +1,10 @@
 $(function () {
-    let myScroll = new IScroll('.winelist');
-    let myScroll1 = new IScroll('.snacklist');
+    let myScroll = new IScroll('.winelist',{
+        click:true
+    });
+    let myScroll1 = new IScroll('.snacklist',{
+        click:true
+    });
     let lis=$('header>ul>li');
     let wrapper=$('.wrapper');
     let winelist=$('.winelist>.main');

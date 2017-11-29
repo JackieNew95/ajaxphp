@@ -7,6 +7,20 @@
     <script src="/ajaxphp/ktv/Public/js/index.js"></script>
     <title>登录页面</title>
 </head>
+<style>
+    .form-group{
+        position: relative;
+        /*margin-bottom: 0;*/
+    }
+    .form-tips{
+        display: block;
+        width: 100%;
+        height: 22px;
+        font-size: 15px;
+        font-weight: bold;
+        color: #ff0000;
+    }
+</style>
 <body style="width: 100%;height:100%;display: flex;align-items: center;justify-content: center">
     <div class="panel panel-primary" style="width: 350px">
         <div class="panel-heading">
@@ -16,11 +30,13 @@
             <form action="javascript:;"><!--不让点击按钮提交，因为要用ajax-->
                 <div class="form-group">
                     <label for="uname">用户名</label>
-                    <input type="text" class="form-control" id="uname" name="uname" placeholder="请输入用户名">
+                    <input type="text" class="form-control" id="uname" name="uname" placeholder="请输入用户名" data-validate="require:此为必填项;user:请输入3~20位英文字母">
+                    <!--<span class="form-tips"></span>-->
                 </div>
                 <div class="form-group">
                     <label for="upass">密码</label>
-                    <input type="password" class="form-control" id="upass" name="upass" placeholder="请输入密码">
+                    <input type="password" class="form-control" id="upass" name="upass" placeholder="请输入密码" data-validate="require:此为必填项;pass:密码为5~20位数字、字母、下划线的组合">
+                    <!--<span class="form-tips"></span>-->
                 </div>
                 <button type="submit" class="btn btn-primary">登录</button>
             </form>

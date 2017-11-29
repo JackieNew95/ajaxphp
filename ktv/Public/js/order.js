@@ -47,6 +47,8 @@ $(function () {
         totalNum.text(`共${calctotalNum()}件`);//总数
         $(this).parent().next().find('.itemPrice').text((v[0].num*v[0].price).toFixed(2));//单件商品价格
 
+        let myScroll = new IScroll('.wrapper');
+
     });
 
     ////////////////////////////////////////////////总计////////////////////////////////////////////////////////////

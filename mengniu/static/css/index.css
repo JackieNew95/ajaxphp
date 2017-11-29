@@ -73,9 +73,6 @@
     top:0;
     bottom:0;
     background-repeat: no-repeat;
-    /*background:none 50% 100% no-repeat;*/
-    /*background:none 100% 100% no-repeat;*/
-    /*background-size:100%*/
 }
 .water_drop_wrap_1 .water_drop{
     right:-3.5%;
@@ -83,11 +80,11 @@
     margin-top: -400px;
 }
 .water_drop_wrap_1 .water_drop em{
-    background:url(../img/bl.png);
+    background:url(../img/index/index/bl.png);
     background-repeat: no-repeat;
 }
 .water_drop_wrap_1 .water_drop b{
-    background-image:url(../img/cj.png);
+    background-image:url(../img/index/index/cj.png);
 }
 .water_drop_wrap_2 .water_drop{
     width:140px;
@@ -97,7 +94,7 @@
 }
 .water_drop_wrap_2 .water_drop em{
     opacity:.7;
-    background-image:url(../img/8.svg)
+    background-image:url(../img/index/index/8.svg)
 }
 .water_drop_wrap_3 .water_drop{
     width:275px;
@@ -106,10 +103,10 @@
     top: 60%;
 }
 .water_drop_wrap_3 .water_drop em{
-    background-image:url(../img/9.svg)
+    background-image:url(../img/index/index/9.svg)
 }
 .water_drop_wrap_3 .water_drop b{
-    background-image:url(../img/co.png)
+    background-image:url(../img/index/index/co.png)
 }
 .water_drop_wrap_4 .water_drop{
     width:156px;
@@ -117,7 +114,7 @@
     top:128px;
 }
 .water_drop_wrap_4 .water_drop em{
-    background-image:url(../img/9.svg)
+    background-image:url(../img/index/index/9.svg)
 }
 .water_drop_wrap_5 .water_drop{
     width:364px;
@@ -126,10 +123,10 @@
 }
 .water_drop_wrap_5 .water_drop em{
     opacity:.68;
-    background-image:url(../img/7.svg)
+    background-image:url(../img/index/index/7.svg)
 }
 .water_drop_wrap_5 .water_drop b{
-    background-image:url(../img/cs.png)
+    background-image:url(../img/index/index/cs.png)
 }
 .water_drop_wrap_6 .water_drop{
     left:8.59%;
@@ -137,10 +134,10 @@
     width:240px
 }
 .water_drop_wrap_6 .water_drop em{
-    background-image:url(../img/8.svg)
+    background-image:url(../img/index/index/8.svg)
 }
 .water_drop_wrap_6 .water_drop b{
-    background-image:url(../img/cl.png)
+    background-image:url(../img/index/index/cl.png)
 }
 .water_drop_wrap_7 .water_drop{
     width:127px;
@@ -156,10 +153,10 @@
     width:353px
 }
 .water_drop_wrap_8 .water_drop em{
-    background-image:url(../img/9.svg)
+    background-image:url(../img/index/index/9.svg)
 }
 .water_drop_wrap_8 .water_drop b{
-    background-image:url(../img/cm.png)
+    background-image:url(../img/index/index/cm.png)
 }
 .water_drop_wrap_9 .water_drop{
     left:90%;
@@ -168,7 +165,7 @@
     width:242px
 }
 .water_drop_wrap_9 .water_drop em{
-    background-image:url(../img/8.svg)
+    background-image:url(../img/index/index/8.svg)
 }
 .water_drop_wrap_9 .water_drop b{
     /*background-image:url(../img/cq.png)*/
@@ -180,7 +177,7 @@
     width:100px
 }
 .water_drop_wrap_10 .water_drop em{
-    background-image:url(../img/9.svg)
+    background-image:url(../img/index/index/9.svg)
 }
 .water_drop_wrap_11 .water_drop{
     left:64%;
@@ -189,7 +186,7 @@
     width:211px
 }
 .water_drop_wrap_11 .water_drop em{
-    background-image:url(../img/8.svg)
+    background-image:url(../img/index/index/8.svg)
 }
 .water_drop_wrap_12 .water_drop{
     left:auto;
@@ -199,7 +196,7 @@
     width:182px
 }
 .water_drop_wrap_12 .water_drop em{
-    background-image:url(../img/7.svg)
+    background-image:url(../img/index/index/7.svg)
 }
 .water_drop_wrap_13 .water_drop{
     left:26.8%;
@@ -209,7 +206,7 @@
     height:500px
 }
 .water_drop_wrap_13 .water_drop em{
-    background-image:url(../img/8.svg)
+    background-image:url(../img/index/index/8.svg)
 }
 .water_drop_wrap_14 .water_drop{
     right:-3.44%;
@@ -221,7 +218,7 @@
     margin-top: 800px;
 }
 .water_drop_wrap_14 .water_drop em{
-    background-image:url(../img/9.svg)
+    background-image:url(../img/index/index/9.svg)
 }
 .water_drop_wrap_15 .water_drop{
     width:143px;
@@ -231,7 +228,7 @@
     right:auto
 }
 .water_drop_wrap_15 .water_drop em{
-    background-image:url(../img/bl.png)
+    background-image:url(../img/index/index/bl.png)
 }
 .water_drop_wrap_16 .water_drop{
     width:118px;
@@ -239,7 +236,7 @@
     top:16%
 }
 .water_drop_wrap_16 .water_drop em{
-    background-image:url(../img/8.svg)
+    background-image:url(../img/index/index/8.svg)
 }
 .water_drop_wrap_17 .water_drop{
     width:245px;
@@ -248,7 +245,7 @@
     bottom:auto
 }
 .water_drop_wrap_17 .water_drop em{
-    background-image:url(../img/9.svg)
+    background-image:url(../img/index/index/9.svg)
 }
 .water_drop_wrap_18 .water_drop{
     width:389px;
@@ -257,10 +254,10 @@
     bottom:auto
 }
 .water_drop_wrap_18 .water_drop em{
-    background-image:url(../img/7.svg)
+    background-image:url(../img/index/index/7.svg)
 }
 .water_drop_wrap_18 .water_drop b{
-    background-image:url(../img/cj.png)
+    background-image:url(../img/index/index/cj.png)
 }
 .water_drop_wrap_19 .water_drop{
     width:241px;
@@ -269,7 +266,7 @@
     bottom:-22.9%;
 }
 .water_drop_wrap_19 .water_drop em{
-    background-image:url(../img/9.svg)
+    background-image:url(../img/index/index/9.svg)
 }
 .water_drop_wrap_20 .water_drop{
     width:169px;
@@ -279,7 +276,7 @@
     bottom:3.4%
 }
 .water_drop_wrap_20 .water_drop em{
-    background-image:url(../img/8.svg)
+    background-image:url(../img/index/index/8.svg)
 }
 
 .m .water_drop_wrap_1 .water_drop{
@@ -446,7 +443,7 @@
 }
 .scroller_page b {
     display: inline-block;
-    background: url(../img/3E.png) 100% 100% no-repeat;
+    background: url(../img/index/index/3E.png) 100% 100% no-repeat;
     background-size: 44px;
     margin-right: 26px;
     width: 21px;

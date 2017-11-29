@@ -56,14 +56,4 @@
         function orderSuccess(){
             include 'App/views/ordersuccess.html';
         }
-        function singer(){
-            include 'App/views/singer.html';
-        }
-        function singerlist(){
-            include 'App/views/singerlist.html';
-        }
-        function songslist(){
-            include 'App/views/songslist.html';
-        }
-
     }

@@ -40,8 +40,8 @@ $(function () {
                     <td type="sid">
                         <input type="text" value="${v['sid']}">
                     </td>
-                    <td type="lyric">
-                        <input type="text" value="${v['lyric']}">
+                    <td type="song">
+                        <input type="text" value="${v['song']}">
                     </td>
                     <td>
                         <button class="btn btn-danger delbtn">删除</button>
@@ -54,7 +54,22 @@ $(function () {
         });
     }
 
-    ///////////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////上传文件///////////////////////////////////////////////////////
+    let file=$('#songs')[0];
+
+    file.onchange=function () {
+        let data=this.files[0];
+        let formdata=new FormData();
+        formdata.append('file',data);
+        let xml=new XMLHttpRequest();
+        xml.open('post','/ajaxphp/ktv/index.php/songsmanager/uploadfile',true);
+        xml.send(formdata);
+        xml.onload=function () {
+            $('#songshidden').val(xml.response);
+        };
+
+    };
+    //////////////////////////////////////////提交/////////////////////////////////////////////////////////
     let submit=$(':submit');
     submit.on('click',function () {
         let data=new FormData($('form')[0]);//不需要设置表头，并且可以上传二进制的文件,传原生js对象
@@ -109,9 +124,5 @@ $(function () {
             }
         })
     })
-
-
-
-
 
 });

@@ -1,5 +1,7 @@
 $(function () {
-   let myscroll=new IScroll('.list');
+   let myscroll=new IScroll('.list',{
+       click:true
+   });
 
 
 });

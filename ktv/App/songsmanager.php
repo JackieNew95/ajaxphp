@@ -61,4 +61,19 @@ class songsmanager{
         }
     }
 
+    function uploadfile(){
+        if (is_uploaded_file($_FILES['file']['tmp_name'])){
+            if(!file_exists('Public/songs')){
+                mkdir('Public/songs');
+            }
+            $type=explode('/',$_FILES['file']['type'])[1];
+            $data=date('y-m-d');
+            $path='Public/songs/'.$data.time().rand(1,100).'.'.$type;
+            if (move_uploaded_file($_FILES['file']['tmp_name'],$path)){
+                echo '/ajaxphp/ktv/'.$path;
+            }
+        }
+
+    }
+
 }

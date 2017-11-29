@@ -18,11 +18,13 @@ header{
 }
 header>a{
     display: block;
-    width: 0.4rem;
+    width: 1.2rem;
     height: 0.4rem;
+    color: #FFFFFF;
+    font-size: 0.24rem;
 }
 header>a:nth-of-type(1){
-    background:url("../img/at_04.png") center / cover no-repeat;
+    background:url("../img/at_04.png") 0 0 / contain no-repeat;
 }
 header>p{
     font-size: 0.36rem;
@@ -37,6 +39,25 @@ header>p{
     width: 25%;
     height: 0.7rem;
     float: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav>li>i{
+    display: block;
+    width: 0.35rem;
+    height: 0.35rem;
+    background: url("../img/yylb1.png") center / cover no-repeat;
+    margin-right: 0.05rem;
+    opacity: 0;
+}
+.nav>li>i.active{
+    opacity: 1;
+}
+.nav>li>a{
+    display: block;
+    width: auto;
+    height: 100%;
     text-align: center;
     line-height: 0.7rem;
     color: #FFFFFF;
@@ -60,10 +81,11 @@ header>p{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 .list-contant{
     width: 7rem;
-    height: 9.5rem;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -81,7 +103,7 @@ header>p{
     line-height: 100%;
     color: #FFFFFF;
     font-size: 0.24rem;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.3);
 }
 .list-contant>li{
     font-size: 0.24rem;

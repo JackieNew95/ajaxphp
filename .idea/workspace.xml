@@ -2,19 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d86e7ed-1486-4fde-940a-37f290e89b48" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/Public/img/singer-01.png" afterPath="$PROJECT_DIR$/ktv/Public/img/singer-01.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/Public/img/singer-02.png" afterPath="$PROJECT_DIR$/ktv/Public/img/singer-02.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/Public/img/songsmusic.png" afterPath="$PROJECT_DIR$/ktv/Public/img/songsmusic.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/Public/img/songsvideo.png" afterPath="$PROJECT_DIR$/ktv/Public/img/songsvideo.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ktv/Public/upload/17-11-16/xgs.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/Public/img/banner1.png" afterPath="$PROJECT_DIR$/ktv/Public/img/banner1.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/App/gamemanager.php" afterPath="$PROJECT_DIR$/ktv/App/gamemanager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/App/shopmanager.php" afterPath="$PROJECT_DIR$/ktv/App/shopmanager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/App/views/adminheader.html" afterPath="$PROJECT_DIR$/ktv/App/views/adminheader.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RegExp.html" afterPath="$PROJECT_DIR$/RegExp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/App/shop.php" afterPath="$PROJECT_DIR$/ktv/App/shop.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/App/songsmanager.php" afterPath="$PROJECT_DIR$/ktv/App/songsmanager.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/App/views/index.html" afterPath="$PROJECT_DIR$/ktv/App/views/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/App/views/shopmanager.html" afterPath="$PROJECT_DIR$/ktv/App/views/shopmanager.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/Public/js/shopmanager.js" afterPath="$PROJECT_DIR$/ktv/Public/js/shopmanager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mengniu/index/header.php" afterPath="$PROJECT_DIR$/mengniu/index/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mengniu/template/index/header.html" afterPath="$PROJECT_DIR$/mengniu/template/index/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/App/views/login.html" afterPath="$PROJECT_DIR$/ktv/App/views/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/App/views/ordersuccess.html" afterPath="$PROJECT_DIR$/ktv/App/views/ordersuccess.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/App/views/singer.html" afterPath="$PROJECT_DIR$/ktv/App/views/singer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/App/views/singerlist.html" afterPath="$PROJECT_DIR$/ktv/App/views/singerlist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/App/views/songslist.html" afterPath="$PROJECT_DIR$/ktv/App/views/songslist.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/App/views/songsmanager.html" afterPath="$PROJECT_DIR$/ktv/App/views/songsmanager.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/Public/css/singer.css" afterPath="$PROJECT_DIR$/ktv/Public/css/singer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/Public/css/singerlist.css" afterPath="$PROJECT_DIR$/ktv/Public/css/singerlist.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/Public/css/songslist.css" afterPath="$PROJECT_DIR$/ktv/Public/css/songslist.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/Public/js/index.js" afterPath="$PROJECT_DIR$/ktv/Public/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/Public/js/order.js" afterPath="$PROJECT_DIR$/ktv/Public/js/order.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/Public/js/shop.js" afterPath="$PROJECT_DIR$/ktv/Public/js/shop.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/Public/js/singerlist.js" afterPath="$PROJECT_DIR$/ktv/Public/js/singerlist.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/Public/js/songslist.js" afterPath="$PROJECT_DIR$/ktv/Public/js/songslist.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ktv/Public/js/songsmanager.js" afterPath="$PROJECT_DIR$/ktv/Public/js/songsmanager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mengniu/index/index.php" afterPath="$PROJECT_DIR$/mengniu/index/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mengniu/static/css/index.css" afterPath="$PROJECT_DIR$/mengniu/static/css/index.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,59 +35,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="shop.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ktv/App/shop.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="62" column="48" lean-forward="false" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
-              <folding>
-                <marker date="1510904310593" expanded="true" signature="261:279" ph="select * fro... shop" />
-                <marker date="1510904310593" expanded="true" signature="805:858" ph="insert into orders... " />
-                <marker date="1510904310593" expanded="true" signature="1322:1381" ph="insert into orderextra... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="songslist.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ktv/App/views/songslist.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-600">
-              <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#2;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#3;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#5;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#6;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#7;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#8;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#9;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#10;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#11;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#12;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#13;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#14;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="songslist.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ktv/Public/css/songslist.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="110" column="14" lean-forward="true" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -99,12 +58,18 @@
       <find>myScroll</find>
       <find>singermanager</find>
       <find>singers</find>
+      <find>list</find>
+      <find>audio</find>
+      <find>loop</find>
+      <find>myscroll</find>
+      <find>render</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>singermanager</replace>
       <replace>songsmanager</replace>
       <replace>songs</replace>
+      <replace>lrc</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -113,34 +78,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ktv/Public/css/game.css" />
-        <option value="$PROJECT_DIR$/mengniu/index.php" />
-        <option value="$PROJECT_DIR$/mengniu/admin/index.php" />
-        <option value="$PROJECT_DIR$/mengniu/index/index.php" />
-        <option value="$PROJECT_DIR$/mengniu/static/css/header.css" />
-        <option value="$PROJECT_DIR$/ktv/App/game.php" />
-        <option value="$PROJECT_DIR$/ktv/Public/js/gamelist.js" />
-        <option value="$PROJECT_DIR$/ktv/App/views/gamelist.html" />
-        <option value="$PROJECT_DIR$/ktv/Public/css/gamelist.css" />
-        <option value="$PROJECT_DIR$/ktv/App/views/home.html" />
-        <option value="$PROJECT_DIR$/ktv/App/views/gamemanager.html" />
-        <option value="$PROJECT_DIR$/ktv/App/gamemanager.php" />
-        <option value="$PROJECT_DIR$/ktv/App/shopmanager.php" />
-        <option value="$PROJECT_DIR$/ktv/Public/js/shopmanager.js" />
-        <option value="$PROJECT_DIR$/ktv/App/views/shopmanager.html" />
-        <option value="$PROJECT_DIR$/mengniu/template/index/header.html" />
-        <option value="$PROJECT_DIR$/mengniu/index/header.php" />
-        <option value="$PROJECT_DIR$/ktv/App/views/shop.html" />
-        <option value="$PROJECT_DIR$/ktv/Public/css/shop.css" />
-        <option value="$PROJECT_DIR$/ktv/App/views/index.html" />
-        <option value="$PROJECT_DIR$/cookie.html" />
-        <option value="$PROJECT_DIR$/ktv/Public/css/order.css" />
-        <option value="$PROJECT_DIR$/ktv/Public/js/oeder.js" />
-        <option value="$PROJECT_DIR$/ktv/Public/js/shop.js" />
-        <option value="$PROJECT_DIR$/ktv/Public/css/ordersuccess.css" />
-        <option value="$PROJECT_DIR$/ktv/App/views/ordersuccess.html" />
         <option value="$PROJECT_DIR$/ktv/App/views/order.html" />
-        <option value="$PROJECT_DIR$/ktv/Public/js/order.js" />
         <option value="$PROJECT_DIR$/ktv/Public/js/singertypemanager.js" />
         <option value="$PROJECT_DIR$/ktv/App/views/singertypemanager.html" />
         <option value="$PROJECT_DIR$/ktv/App/views/aside.html" />
@@ -148,22 +86,49 @@
         <option value="$PROJECT_DIR$/ktv/App/singertypemanager.php" />
         <option value="$PROJECT_DIR$/ktv/Public/js/singermanager.js" />
         <option value="$PROJECT_DIR$/ktv/App/views/singermanager.php" />
-        <option value="$PROJECT_DIR$/ktv/Public/js/songsmanager.js" />
         <option value="$PROJECT_DIR$/ktv/App/singermanager.php" />
         <option value="$PROJECT_DIR$/ktv/App/views/singermanager.html" />
-        <option value="$PROJECT_DIR$/ktv/App/songsmanager.php" />
-        <option value="$PROJECT_DIR$/ktv/App/views/songsmanager.html" />
-        <option value="$PROJECT_DIR$/ktv/App/views/singer.html" />
-        <option value="$PROJECT_DIR$/ktv/Public/css/singer.css" />
         <option value="$PROJECT_DIR$/shuzishaixuan.html" />
+        <option value="$PROJECT_DIR$/ktv/App/shop.php" />
+        <option value="$PROJECT_DIR$/ktv/App/views/ordersuccess.html" />
+        <option value="$PROJECT_DIR$/ktv/Public/lrc/yt.php" />
+        <option value="$PROJECT_DIR$/ktv/Public/lrc/yt.json" />
         <option value="$PROJECT_DIR$/RegExp.html" />
+        <option value="$PROJECT_DIR$/ktv/App/views/login.html" />
+        <option value="$PROJECT_DIR$/ktv/Public/js/index.js" />
+        <option value="$PROJECT_DIR$/ktv/Public/css/singer.css" />
         <option value="$PROJECT_DIR$/ktv/Public/css/singerlist.css" />
         <option value="$PROJECT_DIR$/ktv/App/views/singerlist.html" />
-        <option value="$PROJECT_DIR$/ktv/App/shop.php" />
-        <option value="$PROJECT_DIR$/ktv/App/views/songslist.html" />
         <option value="$PROJECT_DIR$/ktv/Public/css/songslist.css" />
-        <option value="$PROJECT_DIR$/ktv/Public/js/singerlist.js" />
+        <option value="$PROJECT_DIR$/ktv/App/views/songsalready.html" />
+        <option value="$PROJECT_DIR$/ktv/Public/css/songsalready.css" />
+        <option value="$PROJECT_DIR$/ktv/Public/css/play.css" />
+        <option value="$PROJECT_DIR$/ktv/Public/lrc/莫文蔚一念之间.json" />
+        <option value="$PROJECT_DIR$/ktv/Public/lrc/莫文蔚如果没有你.json" />
+        <option value="$PROJECT_DIR$/ktv/App/views/play.html" />
+        <option value="$PROJECT_DIR$/ktv/App/views/singer.html" />
+        <option value="$PROJECT_DIR$/ktv/App/views/paihang.html" />
+        <option value="$PROJECT_DIR$/ktv/Public/css/paihang.css" />
+        <option value="$PROJECT_DIR$/ktv/App/me.php" />
+        <option value="$PROJECT_DIR$/ktv/App/views/index.html" />
+        <option value="$PROJECT_DIR$/ktv/App/views/me.html" />
+        <option value="$PROJECT_DIR$/ktv/Public/css/me.css" />
+        <option value="$PROJECT_DIR$/ktv/App/sing.php" />
+        <option value="$PROJECT_DIR$/ktv/App/views/songslist.html" />
+        <option value="$PROJECT_DIR$/ktv/App/views/songsmanager.html" />
+        <option value="$PROJECT_DIR$/ktv/App/songsmanager.php" />
         <option value="$PROJECT_DIR$/ktv/Public/js/songslist.js" />
+        <option value="$PROJECT_DIR$/ktv/Public/js/songsalready.js" />
+        <option value="$PROJECT_DIR$/ktv/Public/js/singerlist.js" />
+        <option value="$PROJECT_DIR$/ktv/Public/js/singer.js" />
+        <option value="$PROJECT_DIR$/ktv/Public/js/me.js" />
+        <option value="$PROJECT_DIR$/ktv/Public/js/paihang.js" />
+        <option value="$PROJECT_DIR$/ktv/Public/js/shop.js" />
+        <option value="$PROJECT_DIR$/ktv/Public/js/order.js" />
+        <option value="$PROJECT_DIR$/ktv/Public/js/songsmanager.js" />
+        <option value="$PROJECT_DIR$/ktv/Public/js/play.js" />
+        <option value="$PROJECT_DIR$/mengniu/index/index.php" />
+        <option value="$PROJECT_DIR$/mengniu/static/css/index.css" />
       </list>
     </option>
   </component>
@@ -181,7 +146,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -204,6 +169,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,72 +180,85 @@
             <path>
               <item name="ajaxphp" type="b2602c69:ProjectViewProjectNode" />
               <item name="ajaxphp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ktv" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mengniu" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="ajaxphp" type="b2602c69:ProjectViewProjectNode" />
               <item name="ajaxphp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ktv" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mengniu" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="ajaxphp" type="b2602c69:ProjectViewProjectNode" />
               <item name="ajaxphp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ktv" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mengniu" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="ajaxphp" type="b2602c69:ProjectViewProjectNode" />
               <item name="ajaxphp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ktv" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Public" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="ajaxphp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ajaxphp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ktv" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mengniu" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="ajaxphp" type="b2602c69:ProjectViewProjectNode" />
               <item name="ajaxphp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ktv" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Public" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mengniu" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ajaxphp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ajaxphp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mengniu" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ajaxphp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ajaxphp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mengniu" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ajaxphp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ajaxphp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mengniu" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vue" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\ajaxphp\mengniu\static\img\index\index" />
+      <recent name="D:\wamp64\www\ajaxphp\ktv\Public\css" />
+      <recent name="D:\wamp64\www\ajaxphp\ktv\Public\js" />
+      <recent name="D:\wamp64\www\ajaxphp\ktv\Public\songs" />
+      <recent name="D:\wamp64\www\ajaxphp\ktv\Public\upload\17-11-16" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\wamp64\www\ajaxphp\ktv\Public\upload\17-11-13" />
       <recent name="D:\wamp64\www\ajaxphp\ktv\Core" />
       <recent name="D:\wamp64\www\ajaxphp\mengniu\static\img\index" />
       <recent name="D:\wamp64\www\ajaxphp\mengniu\static\img\index\index" />
       <recent name="D:\wamp64\www\ajaxphp\mengniu\static\img\admin" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\wamp64\www\ajaxphp\ktv\Public\img" />
-      <recent name="D:\wamp64\www\ajaxphp\ktv\Public\upload\17-11-17" />
-      <recent name="D:\wamp64\www\ajaxphp\ktv\Public\upload\17-11-16" />
-      <recent name="D:\wamp64\www\ajaxphp\ktv\Public\upload\17-11-14" />
-      <recent name="D:\wamp64\www\ajaxphp\ktv\Public\upload" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -332,20 +311,35 @@
       <workItem from="1510828451852" duration="13787000" />
       <workItem from="1510878663449" duration="2606000" />
       <workItem from="1510882977522" duration="21939000" />
-      <workItem from="1511081466355" duration="3289000" />
+      <workItem from="1511081466355" duration="9412000" />
+      <workItem from="1511102780907" duration="6054000" />
+      <workItem from="1511140030541" duration="15055000" />
+      <workItem from="1511191524938" duration="816000" />
+      <workItem from="1511224993229" duration="21704000" />
+      <workItem from="1511255324150" duration="6781000" />
+      <workItem from="1511311347169" duration="3979000" />
+      <workItem from="1511319568867" duration="31593000" />
+      <workItem from="1511397697902" duration="13672000" />
+      <workItem from="1511484928848" duration="7659000" />
+      <workItem from="1511509395884" duration="8903000" />
+      <workItem from="1511595888745" duration="7422000" />
+      <workItem from="1511682170345" duration="2676000" />
+      <workItem from="1511686585879" duration="25634000" />
+      <workItem from="1511754183245" duration="3158000" />
+      <workItem from="1511779966225" duration="1063000" />
+      <workItem from="1511830857581" duration="113000" />
+      <workItem from="1511831375626" duration="19000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="389552000" />
+    <option name="totallyTimeSpent" value="551976000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1830161" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20204978" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -356,6 +350,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -376,419 +371,360 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mengniu/static/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mengniu/static/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/App/views/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/App/views/game.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/Public/css/game.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookie.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/Public/css/order.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="53" column="16" lean-forward="true" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/Public/css/shop.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="127" column="19" lean-forward="true" selection-start-line="127" selection-start-column="19" selection-end-line="127" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/Public/css/ordersuccess.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="73" column="71" lean-forward="true" selection-start-line="73" selection-start-column="71" selection-end-line="73" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/App/views/ordersuccess.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/App/views/order.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/Core/router.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="56" lean-forward="false" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/App/views/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/Public/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/App/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <marker date="1510296715801" expanded="true" signature="362:395" ph="select * fro... admin" />
-            <marker date="1510296715801" expanded="true" signature="362:397" ph="select * fro... admin" />
-            <marker date="1510296715801" expanded="true" signature="362:404" ph="select * fro... admin" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/Public/js/gamemanager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/App/gamemanager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding>
-            <marker date="1510537858956" expanded="true" signature="349:410" ph="insert into game... " />
-            <marker date="1510537858956" expanded="true" signature="693:711" ph="select * fro... game" />
-            <marker date="1510537858956" expanded="true" signature="856:883" ph="delete from " />
-            <marker date="1510537858956" expanded="true" signature="1152:1195" ph="update game " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/App/views/gamemanager.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/App/views/shopmanager.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="70" column="36" lean-forward="true" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/Public/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-900">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/App/views/aside.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/Public/js/singertypemanager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="85" column="47" lean-forward="false" selection-start-line="85" selection-start-column="47" selection-end-line="85" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/App/singertypemanager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-          <folding>
-            <marker date="1510833064341" expanded="true" signature="288:312" ph="select * fro... singertype" />
-            <marker date="1510833064341" expanded="true" signature="752:775" ph="insert into singertype... " />
-            <marker date="1510833064341" expanded="true" signature="985:1018" ph="delete from " />
-            <marker date="1510833064341" expanded="true" signature="1289:1338" ph="update singe... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/App/views/singermanager.php" />
-    <entry file="file://$PROJECT_DIR$/ktv/Public/js/shopmanager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="169" column="35" lean-forward="false" selection-start-line="169" selection-start-column="35" selection-end-line="169" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/Public/js/order.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/App/views/adminheader.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="55" column="7" lean-forward="false" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/App/shopmanager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <marker date="1510565773845" expanded="true" signature="276:294" ph="select * fro... shop" />
-            <marker date="1510565773845" expanded="true" signature="734:751" ph="insert into shop... " />
-            <marker date="1510565773845" expanded="true" signature="734:755" ph="insert into shop... " />
-            <marker date="1510565773845" expanded="true" signature="961:988" ph="delete from " />
-            <marker date="1510565773845" expanded="true" signature="1259:1302" ph="update shop " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/Public/js/songsmanager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1030">
-          <caret line="98" column="49" lean-forward="true" selection-start-line="98" selection-start-column="49" selection-end-line="98" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/App/views/singertypemanager.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-725">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/App/views/singermanager.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="82" column="30" lean-forward="false" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/Public/js/singermanager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="142" column="62" lean-forward="false" selection-start-line="142" selection-start-column="62" selection-end-line="142" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/App/singermanager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <marker date="1510882468327" expanded="true" signature="206:230" ph="select * fro... singertype" />
-            <marker date="1510882468327" expanded="true" signature="370:391" ph="select * fro... singers" />
-            <marker date="1510882468327" expanded="true" signature="831:851" ph="insert into singers... " />
-            <marker date="1510882468327" expanded="true" signature="1061:1091" ph="delete from " />
-            <marker date="1510882468327" expanded="true" signature="1362:1408" ph="update singe... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/App/views/songsmanager.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="50" column="56" lean-forward="false" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/App/songsmanager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <marker date="1510883719479" expanded="true" signature="205:226" ph="select * fro... singers" />
-            <marker date="1510883719479" expanded="true" signature="365:380" ph="select * fro... singers" />
-            <marker date="1510883719479" expanded="true" signature="365:384" ph="select * fro... songs" />
-            <marker date="1510883719479" expanded="true" signature="825:843" ph="insert into songs... " />
-            <marker date="1510883719479" expanded="true" signature="1053:1081" ph="delete from " />
-            <marker date="1510883719479" expanded="true" signature="1352:1396" ph="update songs... " />
-            <marker date="1510883719479" expanded="true" signature="1363:1396" ph="update singe... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ktv/Public/css/singer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="81" column="19" lean-forward="true" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/Public/lrc/tsconfig.json" />
-    <entry file="file://$PROJECT_DIR$/shuzishaixuan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RegExp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/Public/js/shop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="44" lean-forward="true" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
-          <folding>
-            <marker date="1510802239242" expanded="true" signature="4759:5679" ph="..." />
-            <marker date="1510802239242" expanded="true" signature="4813:4893" ph="..." />
-            <marker date="1510802239242" expanded="true" signature="4929:5661" ph="..." />
-            <marker date="1510802239242" expanded="true" signature="4967:5416" ph="..." />
-            <marker date="1510802239242" expanded="true" signature="5066:5148" ph="..." />
-            <marker date="1510802239242" expanded="true" signature="5193:5389" ph="..." />
-            <marker date="1510802239242" expanded="true" signature="5457:5638" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/App/views/shop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/App/songslist.php" />
-    <entry file="file://$PROJECT_DIR$/ktv/App/shop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="62" column="48" lean-forward="false" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
-          <folding>
-            <marker date="1510904310593" expanded="true" signature="261:279" ph="select * fro... shop" />
-            <marker date="1510904310593" expanded="true" signature="805:858" ph="insert into orders... " />
-            <marker date="1510904310593" expanded="true" signature="1322:1381" ph="insert into orderextra... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/App/views/singerlist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/Public/css/singerlist.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="115" column="19" lean-forward="true" selection-start-line="115" selection-start-column="19" selection-end-line="115" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/App/views/songslist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600">
-          <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#2;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#3;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#4;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#5;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#6;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#7;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#8;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#9;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#10;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#11;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#12;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#13;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#14;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="50">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ktv/App/views/singer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="260">
+          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/Public/css/songsalready.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2475">
+          <caret line="99" column="1" lean-forward="true" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/Public/css/swiper.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/Public/js/swiper.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="11" column="111197" lean-forward="true" selection-start-line="11" selection-start-column="111197" selection-end-line="11" selection-end-column="111197" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/App/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="16" column="63" lean-forward="true" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/App/views/paihang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/Public/css/paihang.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/Public/css/me.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1180">
+          <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/App/views/me.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/App/me.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/App/views/order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/App/views/singerlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/App/views/songsalready.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/App/views/songslist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/Public/css/songslist.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="175" column="1" lean-forward="true" selection-start-line="175" selection-start-column="1" selection-end-line="175" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/App/singertypemanager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="70" column="70" lean-forward="true" selection-start-line="70" selection-start-column="70" selection-end-line="70" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/App/views/singertypemanager.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="53" column="54" lean-forward="true" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/App/songsmanager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/Public/js/gamemanager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/Public/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/Public/js/singertypemanager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2300">
+          <caret line="92" column="48" lean-forward="true" selection-start-line="92" selection-start-column="48" selection-end-line="92" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/Public/js/singermanager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/Public/js/shopmanager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/Public/css/shop.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/App/views/shop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/App/shop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/Public/js/gamelist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/Public/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2035">
+          <caret line="84" column="8" lean-forward="false" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/Public/js/me.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/Public/js/order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1670">
+          <caret line="49" column="47" lean-forward="true" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/Public/js/paihang.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/Public/js/shop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="164" column="16" lean-forward="false" selection-start-line="164" selection-start-column="8" selection-end-line="164" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/Public/js/singer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ktv/Public/js/singerlist.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="150">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ktv/Public/js/songslist.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
+          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ktv/Public/css/songslist.css">
+    <entry file="file://$PROJECT_DIR$/ktv/Public/js/songsalready.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="110" column="14" lean-forward="true" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="75">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/Public/js/songsmanager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="122" column="17" lean-forward="true" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/App/views/songsmanager.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="75" column="68" lean-forward="true" selection-start-line="75" selection-start-column="68" selection-end-line="75" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/Public/js/play.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/App/views/play.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145">
+          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ktv/App/sing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/ajaxphp/ktv/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/template/index/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1025">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/static/img/index/index/9.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3955">
+          <caret line="452" column="7" lean-forward="true" selection-start-line="452" selection-start-column="7" selection-end-line="452" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/template/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1125">
+          <caret line="6" column="54" lean-forward="false" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/index/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mengniu/index/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
         </state>
       </provider>
     </entry>
